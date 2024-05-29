@@ -1,0 +1,1693 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-05-28 08:49] ** ComfyUI startup time: 2024-05-28 08:49:06.340821
+[2024-05-28 08:49] ** Platform: Darwin
+[2024-05-28 08:49] ** Python version: 3.11.9 (main, Apr 19 2024, 11:43:47) [Clang 14.0.6 ]
+[2024-05-28 08:49] ** Python executable: /Users/sean/miniconda3/envs/comfyui/bin/python
+[2024-05-28 08:49] ** Log path: /Users/sean/Documents/GitHub/ComfyUI/comfyui.log
+[2024-05-28 08:49] 
+Prestartup times for custom nodes:
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/rgthree-comfy
+[2024-05-28 08:49]    0.1 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-28 08:49] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-05-28 08:49] pytorch version: 2.1.2
+[2024-05-28 08:49] Forcing FP16.
+[2024-05-28 08:49] Set vram state to: SHARED
+[2024-05-28 08:49] Device: mps
+[2024-05-28 08:49] VAE dtype: torch.float32
+[2024-05-28 08:49] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-28 08:49] ### Loading: ComfyUI-Manager (V2.34.1)
+[2024-05-28 08:49] ### ComfyUI Revision: 2215 [b26da224] | Released on '2024-05-27'
+[2024-05-28 08:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-28 08:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-28 08:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-05-28 08:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-28 08:49] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-28 08:49] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.0-b3 in ComfyUI[0m
+[2024-05-28 08:49] Torch version: 2.1.2
+[2024-05-28 08:49] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: CoreMLExecutionProvider, AzureExecutionProvider, CPUExecutionProvider
+[2024-05-28 08:49] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-05-28 08:49] Use STYLE:weight_interpretation:normalization at the start of a prompt to use advanced encodings
+[2024-05-28 08:49] Weight interpretations available: comfy,perp
+[2024-05-28 08:49] Normalization types available: none
+[2024-05-28 08:49] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-05-28 08:49] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-05-28 08:49] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-05-28 08:49] 
+	[3m[93m"Art is the magic that brings beauty into the world."[0m[3m - Unknown[0m
+[2024-05-28 08:49] 
+[2024-05-28 08:49] [34mOpenPose Editor: [92mLoaded[0m
+[2024-05-28 08:49] 
+[2024-05-28 08:49] [92m[rgthree] Loaded 40 epic nodes.[0m
+[2024-05-28 08:49] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-05-28 08:49] 
+[2024-05-28 08:49] ### Loading: ComfyUI-Impact-Pack (V5.5.11)
+[2024-05-28 08:49] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.5)
+[2024-05-28 08:49] [Impact Pack] Wildcards loading done.
+[2024-05-28 08:49] Total VRAM 32768 MB, total RAM 32768 MB
+[2024-05-28 08:49] pytorch version: 2.1.2
+[2024-05-28 08:49] Forcing FP16.
+[2024-05-28 08:49] Set vram state to: SHARED
+[2024-05-28 08:49] Device: mps
+[2024-05-28 08:49] VAE dtype: torch.float32
+[2024-05-28 08:49] ### Loading: ComfyUI-Inspire-Pack (V0.70.1)
+[2024-05-28 08:49] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-05-28 08:49] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-05-28 08:49] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-05-28 08:49] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-05-28 08:49] [34mDavemane42 Custom Nodes: [92mLoaded[0m
+[2024-05-28 08:49] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-05-28 08:49] Workspace manager - Openning file hash dict
+[2024-05-28 08:49] ### Loading: Workspace Manager (V1.0.0)
+[2024-05-28 08:49] /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../web/extensions/core/uploadImage.js
+[2024-05-28 08:49] File '/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../web/extensions/core/uploadImage.js' updated successfully.✅
+[2024-05-28 08:49] File '/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../folder_paths.py' updated successfully.✅
+[2024-05-28 08:49] File '/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../web/scripts/widgets.js' updated successfully.✅
+[2024-05-28 08:49] ------------------------------------------
+[2024-05-28 08:49] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-05-28 08:49] ------------------------------------------
+[2024-05-28 08:49] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-05-28 08:49] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-05-28 08:49] ------------------------------------------
+[2024-05-28 08:49] [36;20m[comfy_mtb] | INFO -> loaded [96m76[0m nodes successfuly[0m
+[2024-05-28 08:49] [36;20m[comfy_mtb] | INFO -> Some nodes (2) could not be loaded. This can be ignored, but go to http://127.0.0.1:8188/mtb if you want more information.[0m
+[2024-05-28 08:49] Loaded Efficiency nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-05-28 08:49] Loaded ControlNetPreprocessors nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-05-28 08:49] Loaded AdvancedControlNet nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-05-28 08:49] Could not find AnimateDiff nodes
+[2024-05-28 08:49] Loaded IPAdapter nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-05-28 08:49] Loaded VideoHelperSuite from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-05-28 08:49] ### Loading: ComfyUI-Impact-Pack (V5.5.11)
+[2024-05-28 08:49] Loaded ImpactPack nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-05-28 08:49] [Impact Pack] Wildcards loading done.
+[2024-05-28 08:49] 
+Import times for custom nodes:
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sdxl_utility.py
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-portrait-master-zh-cn
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Image-Selector
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/e7ai-animate.py
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Logic
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg-use-everywhere
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_lora_tag_loader
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/save-image-extended-comfyui
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfy-image-saver
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sd-dynamic-thresholding
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-tooling-nodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/stability-ComfyUI-nodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Cutoff
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Lora-Auto-Trigger-Words
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg_custom_core
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/wlsh_nodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Dave_CustomNode
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg-image-picker
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-OpenPose-Editor
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyI2I
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-portrait-master
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/rgthree-comfy
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-workspace-manager
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-art-venture
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/OneButtonPrompt
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-dynamicprompts
+[2024-05-28 08:49]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-prompt-control
+[2024-05-28 08:49]    0.1 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-28 08:49]    0.1 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_segment_anything
+[2024-05-28 08:49]    0.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-05-28 08:49]    0.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-05-28 08:49]    0.3 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-05-28 08:49]    0.6 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfy_mtb
+[2024-05-28 08:49]    0.7 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-05-28 08:49]    0.8 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-05-28 08:49] 
+[2024-05-28 08:49] Starting server
+
+[2024-05-28 08:49] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-28 08:49] got prompt
+[2024-05-28 08:49] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 08:49] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-05-28 08:49] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-05-28 08:49] model_type EPS
+[2024-05-28 08:50] Using split attention in VAE
+[2024-05-28 08:50] Using split attention in VAE
+[2024-05-28 08:50] Requested to load SDXLClipModel
+[2024-05-28 08:50] Loading 1 new model
+[2024-05-28 08:50] Requested to load SDXL
+[2024-05-28 08:50] Loading 1 new model
+[2024-05-28 08:51] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.54s/it]
+[2024-05-28 08:51] Using split attention in VAE
+[2024-05-28 08:51] Using split attention in VAE
+[2024-05-28 08:51] Requested to load AutoencoderKL
+[2024-05-28 08:51] Loading 1 new model
+[2024-05-28 08:51] Canva size: 1248x1824
+[2024-05-28 08:51] Image size: 832x1216
+[2024-05-28 08:51] Scale factor: 2
+[2024-05-28 08:51] Upscaling iteration 1 with scale factor 2
+[2024-05-28 08:51] Restoring logging level to 20
+[2024-05-28 08:51] Processing interrupted
+[2024-05-28 08:51] Prompt executed in 101.19 seconds
+[2024-05-28 08:54] got prompt
+[2024-05-28 08:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 08:54] Requested to load SDXL
+[2024-05-28 08:54] Loading 1 new model
+[2024-05-28 08:55] 
+[2024-05-28 08:55] Processing interrupted
+[2024-05-28 08:55] Prompt executed in 51.95 seconds
+[2024-05-28 08:56] got prompt
+[2024-05-28 08:56] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 08:56] 
+[2024-05-28 08:56] Processing interrupted
+[2024-05-28 08:56] Prompt executed in 30.95 seconds
+[2024-05-28 08:57] got prompt
+[2024-05-28 08:57] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 08:58] 
+[2024-05-28 08:58] Processing interrupted
+[2024-05-28 08:58] Prompt executed in 57.64 seconds
+[2024-05-28 08:58] got prompt
+[2024-05-28 08:58] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 08:59] 
+[2024-05-28 08:59] Processing interrupted
+[2024-05-28 08:59] Prompt executed in 53.14 seconds
+[2024-05-28 08:59] got prompt
+[2024-05-28 08:59] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:00] 
+[2024-05-28 09:00] Processing interrupted
+[2024-05-28 09:00] Prompt executed in 61.17 seconds
+[2024-05-28 09:01] got prompt
+[2024-05-28 09:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:01] 
+[2024-05-28 09:01] Processing interrupted
+[2024-05-28 09:01] Prompt executed in 31.52 seconds
+[2024-05-28 09:01] got prompt
+[2024-05-28 09:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:02] 
+[2024-05-28 09:02] Processing interrupted
+[2024-05-28 09:02] Prompt executed in 33.67 seconds
+[2024-05-28 09:02] got prompt
+[2024-05-28 09:02] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:03] 
+[2024-05-28 09:03] Processing interrupted
+[2024-05-28 09:03] Prompt executed in 57.49 seconds
+[2024-05-28 09:04] got prompt
+[2024-05-28 09:04] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:05] 
+[2024-05-28 09:05] Processing interrupted
+[2024-05-28 09:05] Prompt executed in 46.85 seconds
+[2024-05-28 09:05] got prompt
+[2024-05-28 09:05] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:06] 
+[2024-05-28 09:06] Processing interrupted
+[2024-05-28 09:06] Prompt executed in 45.76 seconds
+[2024-05-28 09:07] got prompt
+[2024-05-28 09:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:07] 
+[2024-05-28 09:07] Processing interrupted
+[2024-05-28 09:07] Prompt executed in 6.30 seconds
+[2024-05-28 09:07] got prompt
+[2024-05-28 09:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:08] 
+[2024-05-28 09:08] Processing interrupted
+[2024-05-28 09:08] Prompt executed in 61.56 seconds
+[2024-05-28 09:09] got prompt
+[2024-05-28 09:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:10] 
+[2024-05-28 09:10] Processing interrupted
+[2024-05-28 09:10] Prompt executed in 49.03 seconds
+[2024-05-28 09:11] got prompt
+[2024-05-28 09:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:12] 
+[2024-05-28 09:12] Processing interrupted
+[2024-05-28 09:12] Prompt executed in 38.89 seconds
+[2024-05-28 09:12] got prompt
+[2024-05-28 09:12] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:13] 
+[2024-05-28 09:13] Processing interrupted
+[2024-05-28 09:13] Prompt executed in 36.44 seconds
+[2024-05-28 09:13] got prompt
+[2024-05-28 09:13] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:14] 
+[2024-05-28 09:14] Processing interrupted
+[2024-05-28 09:14] Prompt executed in 60.46 seconds
+[2024-05-28 09:16] got prompt
+[2024-05-28 09:16] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:16] 
+[2024-05-28 09:16] Processing interrupted
+[2024-05-28 09:16] Prompt executed in 41.67 seconds
+[2024-05-28 09:17] got prompt
+[2024-05-28 09:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:17] Requested to load SDXLClipModel
+[2024-05-28 09:17] Loading 1 new model
+[2024-05-28 09:17] Requested to load SDXL
+[2024-05-28 09:17] Loading 1 new model
+[2024-05-28 09:17] 
+[2024-05-28 09:17] Processing interrupted
+[2024-05-28 09:17] Prompt executed in 33.79 seconds
+[2024-05-28 09:17] got prompt
+[2024-05-28 09:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:18] 
+[2024-05-28 09:18] Processing interrupted
+[2024-05-28 09:18] Prompt executed in 36.59 seconds
+[2024-05-28 09:19] got prompt
+[2024-05-28 09:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:20] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:14<00:00,  2.47s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:14<00:00,  2.49s/it]
+[2024-05-28 09:20] Requested to load AutoencoderKL
+[2024-05-28 09:20] Loading 1 new model
+[2024-05-28 09:20] Canva size: 1248x1824
+[2024-05-28 09:20] Image size: 832x1216
+[2024-05-28 09:20] Scale factor: 2
+[2024-05-28 09:20] Upscaling iteration 1 with scale factor 2
+[2024-05-28 09:20] Tile size: 1024x1024
+[2024-05-28 09:20] Tiles amount: 4
+[2024-05-28 09:20] Grid: 2x2
+[2024-05-28 09:20] Redraw enabled: True
+[2024-05-28 09:20] Seams fix mode: NONE
+[2024-05-28 09:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.03s/it]
+[2024-05-28 09:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.97s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.97s/it]
+[2024-05-28 09:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.88s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 09:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.97s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.93s/it]
+[2024-05-28 09:23] Restoring logging level to 20
+[2024-05-28 09:23] [34mWAS Node Suite [93mWarning: [0mThe path `/Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28` specified doesn't exist! Creating directory.[0m
+[2024-05-28 09:23] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0001.png[0m
+[2024-05-28 09:23] Prompt executed in 298.60 seconds
+[2024-05-28 09:24] got prompt
+[2024-05-28 09:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:24] Requested to load SDXL
+[2024-05-28 09:24] Loading 1 new model
+[2024-05-28 09:25] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.59s/it]
+[2024-05-28 09:25] Requested to load AutoencoderKL
+[2024-05-28 09:25] Loading 1 new model
+[2024-05-28 09:25] Canva size: 1248x1824
+[2024-05-28 09:25] Image size: 832x1216
+[2024-05-28 09:25] Scale factor: 2
+[2024-05-28 09:25] Upscaling iteration 1 with scale factor 2
+[2024-05-28 09:26] Tile size: 1024x1024
+[2024-05-28 09:26] Tiles amount: 4
+[2024-05-28 09:26] Grid: 2x2
+[2024-05-28 09:26] Redraw enabled: True
+[2024-05-28 09:26] Seams fix mode: NONE
+[2024-05-28 09:26] 
+[2024-05-28 09:26] Restoring logging level to 20
+[2024-05-28 09:26] Processing interrupted
+[2024-05-28 09:26] Prompt executed in 136.79 seconds
+[2024-05-28 09:27] got prompt
+[2024-05-28 09:27] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:27] Requested to load SDXLClipModel
+[2024-05-28 09:27] Loading 1 new model
+[2024-05-28 09:27] Requested to load SDXL
+[2024-05-28 09:27] Loading 1 new model
+[2024-05-28 09:29] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.55s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.58s/it]
+[2024-05-28 09:29] Requested to load AutoencoderKL
+[2024-05-28 09:29] Loading 1 new model
+[2024-05-28 09:29] Canva size: 1248x1824
+[2024-05-28 09:29] Image size: 832x1216
+[2024-05-28 09:29] Scale factor: 2
+[2024-05-28 09:29] Upscaling iteration 1 with scale factor 2
+[2024-05-28 09:29] Tile size: 1024x1024
+[2024-05-28 09:29] Tiles amount: 4
+[2024-05-28 09:29] Grid: 2x2
+[2024-05-28 09:29] Redraw enabled: True
+[2024-05-28 09:29] Seams fix mode: NONE
+[2024-05-28 09:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  2.95s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.14s/it]
+[2024-05-28 09:31] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.12s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.29s/it]
+[2024-05-28 09:31] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.11s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.07s/it]
+[2024-05-28 09:32] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.18s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.05s/it]
+[2024-05-28 09:32] Restoring logging level to 20
+[2024-05-28 09:33] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0002.png[0m
+[2024-05-28 09:33] Prompt executed in 323.51 seconds
+[2024-05-28 09:33] got prompt
+[2024-05-28 09:33] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:33] Requested to load SDXLClipModel
+[2024-05-28 09:33] Loading 1 new model
+[2024-05-28 09:34] Requested to load SDXL
+[2024-05-28 09:34] Loading 1 new model
+[2024-05-28 09:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.56s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.60s/it]
+[2024-05-28 09:35] Requested to load AutoencoderKL
+[2024-05-28 09:35] Loading 1 new model
+[2024-05-28 09:35] Canva size: 1248x1824
+[2024-05-28 09:35] Image size: 832x1216
+[2024-05-28 09:35] Scale factor: 2
+[2024-05-28 09:35] Upscaling iteration 1 with scale factor 2
+[2024-05-28 09:35] Restoring logging level to 20
+[2024-05-28 09:35] Processing interrupted
+[2024-05-28 09:35] Prompt executed in 93.85 seconds
+[2024-05-28 09:36] got prompt
+[2024-05-28 09:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 09:36] Requested to load SDXLClipModel
+[2024-05-28 09:36] Loading 1 new model
+[2024-05-28 09:36] Requested to load SDXL
+[2024-05-28 09:36] Loading 1 new model
+[2024-05-28 09:37] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.56s/it]
+[2024-05-28 09:37] Requested to load AutoencoderKL
+[2024-05-28 09:37] Loading 1 new model
+[2024-05-28 09:37] Canva size: 1248x1824
+[2024-05-28 09:37] Image size: 832x1216
+[2024-05-28 09:37] Scale factor: 2
+[2024-05-28 09:37] Upscaling iteration 1 with scale factor 2
+[2024-05-28 09:37] Tile size: 1024x1024
+[2024-05-28 09:37] Tiles amount: 4
+[2024-05-28 09:37] Grid: 2x2
+[2024-05-28 09:37] Redraw enabled: True
+[2024-05-28 09:37] Seams fix mode: NONE
+[2024-05-28 09:38] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.05s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.11s/it]
+[2024-05-28 09:39] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.01s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.97s/it]
+[2024-05-28 09:40] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.10s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.99s/it]
+[2024-05-28 09:41] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.08s/it]
+[2024-05-28 09:41] Restoring logging level to 20
+[2024-05-28 09:41] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0003.png[0m
+[2024-05-28 09:41] Prompt executed in 314.13 seconds
+[2024-05-28 10:18] got prompt
+[2024-05-28 10:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:18] Requested to load SDXL
+[2024-05-28 10:18] Loading 1 new model
+[2024-05-28 10:19] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.47s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.51s/it]
+[2024-05-28 10:19] Requested to load AutoencoderKL
+[2024-05-28 10:19] Loading 1 new model
+[2024-05-28 10:19] Canva size: 1248x1824
+[2024-05-28 10:19] Image size: 832x1216
+[2024-05-28 10:19] Scale factor: 2
+[2024-05-28 10:19] Upscaling iteration 1 with scale factor 2
+[2024-05-28 10:19] Tile size: 1024x1024
+[2024-05-28 10:19] Tiles amount: 4
+[2024-05-28 10:19] Grid: 2x2
+[2024-05-28 10:19] Redraw enabled: True
+[2024-05-28 10:19] Seams fix mode: NONE
+[2024-05-28 10:20] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.96s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.98s/it]
+[2024-05-28 10:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.05s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.01s/it]
+[2024-05-28 10:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.24s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.12s/it]
+[2024-05-28 10:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.39s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.34s/it]
+[2024-05-28 10:23] Restoring logging level to 20
+[2024-05-28 10:23] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0004.png[0m
+[2024-05-28 10:23] Prompt executed in 314.48 seconds
+[2024-05-28 10:26] got prompt
+[2024-05-28 10:26] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:26] Requested to load SDXL
+[2024-05-28 10:26] Loading 1 new model
+[2024-05-28 10:27] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.57s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.53s/it]
+[2024-05-28 10:27] Requested to load AutoencoderKL
+[2024-05-28 10:27] Loading 1 new model
+[2024-05-28 10:27] Canva size: 1248x1824
+[2024-05-28 10:27] Image size: 832x1216
+[2024-05-28 10:27] Scale factor: 2
+[2024-05-28 10:27] Upscaling iteration 1 with scale factor 2
+[2024-05-28 10:27] Tile size: 1024x1024
+[2024-05-28 10:27] Tiles amount: 4
+[2024-05-28 10:27] Grid: 2x2
+[2024-05-28 10:27] Redraw enabled: True
+[2024-05-28 10:27] Seams fix mode: NONE
+[2024-05-28 10:28] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.83s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 10:29] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.33s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.14s/it]
+[2024-05-28 10:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.19s/it]
+[2024-05-28 10:31] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.07s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 10:31] Restoring logging level to 20
+[2024-05-28 10:31] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0005.png[0m
+[2024-05-28 10:31] Prompt executed in 312.97 seconds
+[2024-05-28 10:33] got prompt
+[2024-05-28 10:33] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:33] Requested to load SDXLClipModel
+[2024-05-28 10:33] Loading 1 new model
+[2024-05-28 10:33] Requested to load SDXL
+[2024-05-28 10:33] Loading 1 new model
+[2024-05-28 10:34] 
+[2024-05-28 10:34] Processing interrupted
+[2024-05-28 10:34] Prompt executed in 53.29 seconds
+[2024-05-28 10:34] got prompt
+[2024-05-28 10:34] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.57s/it]
+[2024-05-28 10:35] Requested to load AutoencoderKL
+[2024-05-28 10:35] Loading 1 new model
+[2024-05-28 10:35] Canva size: 1248x1824
+[2024-05-28 10:35] Image size: 832x1216
+[2024-05-28 10:35] Scale factor: 2
+[2024-05-28 10:35] Upscaling iteration 1 with scale factor 2
+[2024-05-28 10:36] Tile size: 1024x1024
+[2024-05-28 10:36] Tiles amount: 4
+[2024-05-28 10:36] Grid: 2x2
+[2024-05-28 10:36] Redraw enabled: True
+[2024-05-28 10:36] Seams fix mode: NONE
+[2024-05-28 10:36] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.88s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.06s/it]
+[2024-05-28 10:37] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.13s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.04s/it]
+[2024-05-28 10:38] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.24s/it]
+[2024-05-28 10:39] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.22s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.20s/it]
+[2024-05-28 10:39] Restoring logging level to 20
+[2024-05-28 10:40] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0006.png[0m
+[2024-05-28 10:40] Prompt executed in 321.87 seconds
+[2024-05-28 10:41] got prompt
+[2024-05-28 10:41] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:41] Requested to load SDXL
+[2024-05-28 10:41] Loading 1 new model
+[2024-05-28 10:42] 
+[2024-05-28 10:42] Processing interrupted
+[2024-05-28 10:42] Prompt executed in 63.20 seconds
+[2024-05-28 10:43] got prompt
+[2024-05-28 10:43] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:44] 
+[2024-05-28 10:44] Processing interrupted
+[2024-05-28 10:44] Prompt executed in 75.73 seconds
+[2024-05-28 10:45] got prompt
+[2024-05-28 10:45] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:45] 
+[2024-05-28 10:45] Processing interrupted
+[2024-05-28 10:45] Prompt executed in 41.90 seconds
+[2024-05-28 10:46] got prompt
+[2024-05-28 10:46] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:47] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.53s/it]
+[2024-05-28 10:47] Requested to load AutoencoderKL
+[2024-05-28 10:47] Loading 1 new model
+[2024-05-28 10:47] Canva size: 1248x1824
+[2024-05-28 10:47] Image size: 832x1216
+[2024-05-28 10:47] Scale factor: 2
+[2024-05-28 10:47] Upscaling iteration 1 with scale factor 2
+[2024-05-28 10:47] Tile size: 1024x1024
+[2024-05-28 10:47] Tiles amount: 4
+[2024-05-28 10:47] Grid: 2x2
+[2024-05-28 10:47] Redraw enabled: True
+[2024-05-28 10:47] Seams fix mode: NONE
+[2024-05-28 10:48] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.91s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.05s/it]
+[2024-05-28 10:49] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 10:50] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 10:51] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.06s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 10:51] Restoring logging level to 20
+[2024-05-28 10:51] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0007.png[0m
+[2024-05-28 10:51] Prompt executed in 305.18 seconds
+[2024-05-28 10:53] got prompt
+[2024-05-28 10:53] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 10:53] model_type EPS
+[2024-05-28 10:53] Using split attention in VAE
+[2024-05-28 10:53] Using split attention in VAE
+[2024-05-28 10:53] Requested to load SDXLClipModel
+[2024-05-28 10:53] Loading 1 new model
+[2024-05-28 10:53] Requested to load SDXL
+[2024-05-28 10:53] Loading 1 new model
+[2024-05-28 10:55] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.49s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.57s/it]
+[2024-05-28 10:55] Requested to load AutoencoderKL
+[2024-05-28 10:55] Loading 1 new model
+[2024-05-28 10:55] Canva size: 1248x1824
+[2024-05-28 10:55] Image size: 832x1216
+[2024-05-28 10:55] Scale factor: 2
+[2024-05-28 10:55] Upscaling iteration 1 with scale factor 2
+[2024-05-28 10:55] Tile size: 1024x1024
+[2024-05-28 10:55] Tiles amount: 4
+[2024-05-28 10:55] Grid: 2x2
+[2024-05-28 10:55] Redraw enabled: True
+[2024-05-28 10:55] Seams fix mode: NONE
+[2024-05-28 10:56] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.92s/it]
+[2024-05-28 10:57] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.93s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 10:57] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.16s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.11s/it]
+[2024-05-28 10:58] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.21s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.05s/it]
+[2024-05-28 10:58] Restoring logging level to 20
+[2024-05-28 10:59] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0008.png[0m
+[2024-05-28 10:59] Prompt executed in 319.22 seconds
+[2024-05-28 11:01] got prompt
+[2024-05-28 11:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:01] Requested to load SDXL
+[2024-05-28 11:01] Loading 1 new model
+[2024-05-28 11:02] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.56s/it]
+[2024-05-28 11:02] Requested to load AutoencoderKL
+[2024-05-28 11:02] Loading 1 new model
+[2024-05-28 11:02] Canva size: 1248x1824
+[2024-05-28 11:02] Image size: 832x1216
+[2024-05-28 11:02] Scale factor: 2
+[2024-05-28 11:02] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:02] Tile size: 1024x1024
+[2024-05-28 11:02] Tiles amount: 4
+[2024-05-28 11:02] Grid: 2x2
+[2024-05-28 11:02] Redraw enabled: True
+[2024-05-28 11:02] Seams fix mode: NONE
+[2024-05-28 11:03] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 11:04] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.81s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.85s/it]
+[2024-05-28 11:05] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.90s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]
+[2024-05-28 11:06] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.99s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.89s/it]
+[2024-05-28 11:06] Restoring logging level to 20
+[2024-05-28 11:06] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0009.png[0m
+[2024-05-28 11:06] Prompt executed in 299.90 seconds
+[2024-05-28 11:10] got prompt
+[2024-05-28 11:10] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:10] Requested to load SDXLClipModel
+[2024-05-28 11:10] Loading 1 new model
+[2024-05-28 11:10] Requested to load SDXL
+[2024-05-28 11:10] Loading 1 new model
+[2024-05-28 11:10] 
+[2024-05-28 11:10] Processing interrupted
+[2024-05-28 11:10] Prompt executed in 7.40 seconds
+[2024-05-28 11:10] got prompt
+[2024-05-28 11:10] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:11] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.56s/it]
+[2024-05-28 11:11] Requested to load AutoencoderKL
+[2024-05-28 11:11] Loading 1 new model
+[2024-05-28 11:12] Canva size: 1248x1824
+[2024-05-28 11:12] Image size: 832x1216
+[2024-05-28 11:12] Scale factor: 2
+[2024-05-28 11:12] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:12] Tile size: 1024x1024
+[2024-05-28 11:12] Tiles amount: 4
+[2024-05-28 11:12] Grid: 2x2
+[2024-05-28 11:12] Redraw enabled: True
+[2024-05-28 11:12] Seams fix mode: NONE
+[2024-05-28 11:13] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.86s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.97s/it]
+[2024-05-28 11:13] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.17s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.09s/it]
+[2024-05-28 11:14] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.36s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.25s/it]
+[2024-05-28 11:15] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:53<00:00,  3.62s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:53<00:00,  3.58s/it]
+[2024-05-28 11:15] Restoring logging level to 20
+[2024-05-28 11:16] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0010.png[0m
+[2024-05-28 11:16] Prompt executed in 320.92 seconds
+[2024-05-28 11:19] got prompt
+[2024-05-28 11:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:19] Requested to load SDXLClipModel
+[2024-05-28 11:19] Loading 1 new model
+[2024-05-28 11:19] Requested to load SDXL
+[2024-05-28 11:19] Loading 1 new model
+[2024-05-28 11:20] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.59s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.62s/it]
+[2024-05-28 11:20] Requested to load AutoencoderKL
+[2024-05-28 11:20] Loading 1 new model
+[2024-05-28 11:20] Canva size: 1248x1824
+[2024-05-28 11:20] Image size: 832x1216
+[2024-05-28 11:20] Scale factor: 2
+[2024-05-28 11:20] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:21] Tile size: 1024x1024
+[2024-05-28 11:21] Tiles amount: 4
+[2024-05-28 11:21] Grid: 2x2
+[2024-05-28 11:21] Redraw enabled: True
+[2024-05-28 11:21] Seams fix mode: NONE
+[2024-05-28 11:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.02s/it]
+[2024-05-28 11:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.86s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]
+[2024-05-28 11:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 11:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.83s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.93s/it]
+[2024-05-28 11:24] Restoring logging level to 20
+[2024-05-28 11:24] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0011.png[0m
+[2024-05-28 11:24] Prompt executed in 311.44 seconds
+[2024-05-28 11:25] got prompt
+[2024-05-28 11:25] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:25] Requested to load SDXLClipModel
+[2024-05-28 11:25] Loading 1 new model
+[2024-05-28 11:25] Requested to load SDXL
+[2024-05-28 11:25] Loading 1 new model
+[2024-05-28 11:26] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.57s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.58s/it]
+[2024-05-28 11:26] Requested to load AutoencoderKL
+[2024-05-28 11:26] Loading 1 new model
+[2024-05-28 11:26] Canva size: 1248x1824
+[2024-05-28 11:26] Image size: 832x1216
+[2024-05-28 11:26] Scale factor: 2
+[2024-05-28 11:26] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:27] Tile size: 1024x1024
+[2024-05-28 11:27] Tiles amount: 4
+[2024-05-28 11:27] Grid: 2x2
+[2024-05-28 11:27] Redraw enabled: True
+[2024-05-28 11:27] Seams fix mode: NONE
+[2024-05-28 11:27] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.84s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.97s/it]
+[2024-05-28 11:28] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.05s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.00s/it]
+[2024-05-28 11:29] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.23s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.09s/it]
+[2024-05-28 11:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:51<00:00,  3.64s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:51<00:00,  3.47s/it]
+[2024-05-28 11:30] Restoring logging level to 20
+[2024-05-28 11:30] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0012.png[0m
+[2024-05-28 11:30] Prompt executed in 324.42 seconds
+[2024-05-28 11:32] got prompt
+[2024-05-28 11:32] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:32] Requested to load SDXLClipModel
+[2024-05-28 11:32] Loading 1 new model
+[2024-05-28 11:32] Requested to load SDXL
+[2024-05-28 11:32] Loading 1 new model
+[2024-05-28 11:32] 
+[2024-05-28 11:32] Processing interrupted
+[2024-05-28 11:32] Prompt executed in 34.39 seconds
+[2024-05-28 11:33] got prompt
+[2024-05-28 11:33] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:33] Requested to load SDXLClipModel
+[2024-05-28 11:33] Loading 1 new model
+[2024-05-28 11:33] Requested to load SDXL
+[2024-05-28 11:33] Loading 1 new model
+[2024-05-28 11:33] 
+[2024-05-28 11:33] Processing interrupted
+[2024-05-28 11:33] Prompt executed in 28.15 seconds
+[2024-05-28 11:34] got prompt
+[2024-05-28 11:34] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:34] Requested to load SDXLClipModel
+[2024-05-28 11:34] Loading 1 new model
+[2024-05-28 11:34] Requested to load SDXL
+[2024-05-28 11:34] Loading 1 new model
+[2024-05-28 11:34] 
+[2024-05-28 11:34] Processing interrupted
+[2024-05-28 11:34] Prompt executed in 43.29 seconds
+[2024-05-28 11:35] got prompt
+[2024-05-28 11:35] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:35] Requested to load SDXLClipModel
+[2024-05-28 11:35] Loading 1 new model
+[2024-05-28 11:35] Requested to load SDXL
+[2024-05-28 11:35] Loading 1 new model
+[2024-05-28 11:35] 
+[2024-05-28 11:35] Processing interrupted
+[2024-05-28 11:35] Prompt executed in 25.02 seconds
+[2024-05-28 11:36] got prompt
+[2024-05-28 11:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:36] Requested to load SDXLClipModel
+[2024-05-28 11:36] Loading 1 new model
+[2024-05-28 11:36] Requested to load SDXL
+[2024-05-28 11:36] Loading 1 new model
+[2024-05-28 11:36] 
+[2024-05-28 11:36] Processing interrupted
+[2024-05-28 11:36] Prompt executed in 40.73 seconds
+[2024-05-28 11:37] got prompt
+[2024-05-28 11:37] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:37] Requested to load SDXLClipModel
+[2024-05-28 11:37] Loading 1 new model
+[2024-05-28 11:37] Requested to load SDXL
+[2024-05-28 11:37] Loading 1 new model
+[2024-05-28 11:37] 
+[2024-05-28 11:37] Processing interrupted
+[2024-05-28 11:37] Prompt executed in 37.33 seconds
+[2024-05-28 11:37] got prompt
+[2024-05-28 11:37] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:38] 
+[2024-05-28 11:38] Processing interrupted
+[2024-05-28 11:38] Prompt executed in 11.25 seconds
+[2024-05-28 11:38] got prompt
+[2024-05-28 11:38] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:38] 
+[2024-05-28 11:38] Processing interrupted
+[2024-05-28 11:38] Prompt executed in 11.10 seconds
+[2024-05-28 11:38] got prompt
+[2024-05-28 11:38] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:39] 
+[2024-05-28 11:39] Processing interrupted
+[2024-05-28 11:39] Prompt executed in 31.92 seconds
+[2024-05-28 11:39] got prompt
+[2024-05-28 11:39] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:39] Requested to load SDXLClipModel
+[2024-05-28 11:39] Loading 1 new model
+[2024-05-28 11:39] Requested to load SDXL
+[2024-05-28 11:39] Loading 1 new model
+[2024-05-28 11:39] 
+[2024-05-28 11:39] Processing interrupted
+[2024-05-28 11:39] Prompt executed in 24.79 seconds
+[2024-05-28 11:40] got prompt
+[2024-05-28 11:40] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:40] 
+[2024-05-28 11:40] Processing interrupted
+[2024-05-28 11:40] Prompt executed in 20.79 seconds
+[2024-05-28 11:40] got prompt
+[2024-05-28 11:40] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:40] Requested to load SDXLClipModel
+[2024-05-28 11:40] Loading 1 new model
+[2024-05-28 11:40] Requested to load SDXL
+[2024-05-28 11:40] Loading 1 new model
+[2024-05-28 11:40] 
+[2024-05-28 11:40] Processing interrupted
+[2024-05-28 11:40] Prompt executed in 24.75 seconds
+[2024-05-28 11:41] got prompt
+[2024-05-28 11:41] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:41] 
+[2024-05-28 11:41] Processing interrupted
+[2024-05-28 11:41] Prompt executed in 39.99 seconds
+[2024-05-28 11:41] got prompt
+[2024-05-28 11:41] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:41] Requested to load SDXLClipModel
+[2024-05-28 11:41] Loading 1 new model
+[2024-05-28 11:42] Requested to load SDXL
+[2024-05-28 11:42] Loading 1 new model
+[2024-05-28 11:42] 
+[2024-05-28 11:42] Processing interrupted
+[2024-05-28 11:42] Prompt executed in 26.96 seconds
+[2024-05-28 11:42] got prompt
+[2024-05-28 11:42] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:42] 
+[2024-05-28 11:42] Processing interrupted
+[2024-05-28 11:42] Prompt executed in 24.01 seconds
+[2024-05-28 11:43] got prompt
+[2024-05-28 11:43] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:43] 
+[2024-05-28 11:43] Processing interrupted
+[2024-05-28 11:43] Prompt executed in 29.47 seconds
+[2024-05-28 11:43] got prompt
+[2024-05-28 11:43] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:43] Requested to load SDXLClipModel
+[2024-05-28 11:43] Loading 1 new model
+[2024-05-28 11:43] Requested to load SDXL
+[2024-05-28 11:43] Loading 1 new model
+[2024-05-28 11:44] 
+[2024-05-28 11:44] Processing interrupted
+[2024-05-28 11:44] Prompt executed in 37.66 seconds
+[2024-05-28 11:44] got prompt
+[2024-05-28 11:44] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:44] Requested to load SDXLClipModel
+[2024-05-28 11:44] Loading 1 new model
+[2024-05-28 11:44] Requested to load SDXL
+[2024-05-28 11:44] Loading 1 new model
+[2024-05-28 11:44] 
+[2024-05-28 11:44] Processing interrupted
+[2024-05-28 11:44] Prompt executed in 22.76 seconds
+[2024-05-28 11:45] got prompt
+[2024-05-28 11:45] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:45] Requested to load SDXLClipModel
+[2024-05-28 11:45] Loading 1 new model
+[2024-05-28 11:45] Requested to load SDXL
+[2024-05-28 11:45] Loading 1 new model
+[2024-05-28 11:46] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.54s/it]
+[2024-05-28 11:46] Requested to load AutoencoderKL
+[2024-05-28 11:46] Loading 1 new model
+[2024-05-28 11:46] Canva size: 1248x1824
+[2024-05-28 11:46] Image size: 832x1216
+[2024-05-28 11:46] Scale factor: 2
+[2024-05-28 11:46] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:46] Tile size: 1024x1024
+[2024-05-28 11:46] Tiles amount: 4
+[2024-05-28 11:46] Grid: 2x2
+[2024-05-28 11:46] Redraw enabled: True
+[2024-05-28 11:46] Seams fix mode: NONE
+[2024-05-28 11:46] 
+[2024-05-28 11:46] Restoring logging level to 20
+[2024-05-28 11:46] Processing interrupted
+[2024-05-28 11:46] Prompt executed in 98.44 seconds
+[2024-05-28 11:47] got prompt
+[2024-05-28 11:47] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:47] 
+[2024-05-28 11:47] Processing interrupted
+[2024-05-28 11:47] Prompt executed in 37.18 seconds
+[2024-05-28 11:47] got prompt
+[2024-05-28 11:47] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:48] 
+[2024-05-28 11:48] Processing interrupted
+[2024-05-28 11:48] Prompt executed in 29.40 seconds
+[2024-05-28 11:48] got prompt
+[2024-05-28 11:48] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:49] 
+[2024-05-28 11:49] Processing interrupted
+[2024-05-28 11:49] Prompt executed in 36.74 seconds
+[2024-05-28 11:49] got prompt
+[2024-05-28 11:49] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:49] 
+[2024-05-28 11:49] Processing interrupted
+[2024-05-28 11:49] Prompt executed in 39.32 seconds
+[2024-05-28 11:49] got prompt
+[2024-05-28 11:49] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:49] Requested to load SDXLClipModel
+[2024-05-28 11:49] Loading 1 new model
+[2024-05-28 11:49] Requested to load SDXL
+[2024-05-28 11:49] Loading 1 new model
+[2024-05-28 11:50] 
+[2024-05-28 11:50] Processing interrupted
+[2024-05-28 11:50] Prompt executed in 43.70 seconds
+[2024-05-28 11:50] got prompt
+[2024-05-28 11:50] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:50] Requested to load SDXLClipModel
+[2024-05-28 11:50] Loading 1 new model
+[2024-05-28 11:50] Requested to load SDXL
+[2024-05-28 11:50] Loading 1 new model
+[2024-05-28 11:51] 
+[2024-05-28 11:51] Processing interrupted
+[2024-05-28 11:51] Prompt executed in 35.79 seconds
+[2024-05-28 11:51] got prompt
+[2024-05-28 11:51] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:51] Requested to load SDXLClipModel
+[2024-05-28 11:51] Loading 1 new model
+[2024-05-28 11:51] Requested to load SDXL
+[2024-05-28 11:51] Loading 1 new model
+[2024-05-28 11:52] 
+[2024-05-28 11:52] Processing interrupted
+[2024-05-28 11:52] Prompt executed in 30.54 seconds
+[2024-05-28 11:52] got prompt
+[2024-05-28 11:52] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:52] Requested to load SDXLClipModel
+[2024-05-28 11:52] Loading 1 new model
+[2024-05-28 11:52] Requested to load SDXL
+[2024-05-28 11:52] Loading 1 new model
+[2024-05-28 11:53] 
+[2024-05-28 11:53] Processing interrupted
+[2024-05-28 11:53] Prompt executed in 49.37 seconds
+[2024-05-28 11:53] got prompt
+[2024-05-28 11:53] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:54] 
+[2024-05-28 11:54] Processing interrupted
+[2024-05-28 11:54] Prompt executed in 24.94 seconds
+[2024-05-28 11:54] got prompt
+[2024-05-28 11:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:54] 
+[2024-05-28 11:54] Processing interrupted
+[2024-05-28 11:54] Prompt executed in 24.58 seconds
+[2024-05-28 11:55] got prompt
+[2024-05-28 11:55] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:55] 
+[2024-05-28 11:55] Processing interrupted
+[2024-05-28 11:55] Prompt executed in 24.64 seconds
+[2024-05-28 11:55] got prompt
+[2024-05-28 11:55] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:55] Requested to load SDXLClipModel
+[2024-05-28 11:55] Loading 1 new model
+[2024-05-28 11:55] Requested to load SDXL
+[2024-05-28 11:55] Loading 1 new model
+[2024-05-28 11:57] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.53s/it]
+[2024-05-28 11:57] Requested to load AutoencoderKL
+[2024-05-28 11:57] Loading 1 new model
+[2024-05-28 11:57] Canva size: 1248x1824
+[2024-05-28 11:57] Image size: 832x1216
+[2024-05-28 11:57] Scale factor: 2
+[2024-05-28 11:57] Upscaling iteration 1 with scale factor 2
+[2024-05-28 11:57] Restoring logging level to 20
+[2024-05-28 11:57] Processing interrupted
+[2024-05-28 11:57] Prompt executed in 87.41 seconds
+[2024-05-28 11:58] got prompt
+[2024-05-28 11:58] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:58] Requested to load SDXL
+[2024-05-28 11:58] Loading 1 new model
+[2024-05-28 11:59] 
+[2024-05-28 11:59] Processing interrupted
+[2024-05-28 11:59] Prompt executed in 55.03 seconds
+[2024-05-28 11:59] got prompt
+[2024-05-28 11:59] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 11:59] Requested to load SDXLClipModel
+[2024-05-28 11:59] Loading 1 new model
+[2024-05-28 11:59] Requested to load SDXL
+[2024-05-28 11:59] Loading 1 new model
+[2024-05-28 12:00] 
+[2024-05-28 12:00] Processing interrupted
+[2024-05-28 12:00] Prompt executed in 62.22 seconds
+[2024-05-28 12:00] got prompt
+[2024-05-28 12:00] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:01] 
+[2024-05-28 12:01] Processing interrupted
+[2024-05-28 12:01] Prompt executed in 21.10 seconds
+[2024-05-28 12:01] got prompt
+[2024-05-28 12:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:02] 
+[2024-05-28 12:02] Processing interrupted
+[2024-05-28 12:02] Prompt executed in 29.68 seconds
+[2024-05-28 12:02] got prompt
+[2024-05-28 12:02] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:02] Requested to load SDXLClipModel
+[2024-05-28 12:02] Loading 1 new model
+[2024-05-28 12:02] Requested to load SDXL
+[2024-05-28 12:02] Loading 1 new model
+[2024-05-28 12:02] 
+[2024-05-28 12:02] Processing interrupted
+[2024-05-28 12:02] Prompt executed in 36.43 seconds
+[2024-05-28 12:02] got prompt
+[2024-05-28 12:02] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:02] Requested to load SDXLClipModel
+[2024-05-28 12:02] Loading 1 new model
+[2024-05-28 12:02] Requested to load SDXL
+[2024-05-28 12:02] Loading 1 new model
+[2024-05-28 12:03] 
+[2024-05-28 12:03] Processing interrupted
+[2024-05-28 12:03] Prompt executed in 53.08 seconds
+[2024-05-28 12:03] got prompt
+[2024-05-28 12:03] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:03] Requested to load SDXLClipModel
+[2024-05-28 12:03] Loading 1 new model
+[2024-05-28 12:03] Requested to load SDXL
+[2024-05-28 12:03] Loading 1 new model
+[2024-05-28 12:04] 
+[2024-05-28 12:04] Processing interrupted
+[2024-05-28 12:04] Prompt executed in 44.09 seconds
+[2024-05-28 12:05] got prompt
+[2024-05-28 12:05] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:05] model_type EPS
+[2024-05-28 12:05] Using split attention in VAE
+[2024-05-28 12:05] Using split attention in VAE
+[2024-05-28 12:05] Requested to load SDXLClipModel
+[2024-05-28 12:05] Loading 1 new model
+[2024-05-28 12:05] Requested to load SDXL
+[2024-05-28 12:05] Loading 1 new model
+[2024-05-28 12:06] 
+[2024-05-28 12:06] Processing interrupted
+[2024-05-28 12:06] Prompt executed in 67.27 seconds
+[2024-05-28 12:06] got prompt
+[2024-05-28 12:06] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:06] Requested to load SDXLClipModel
+[2024-05-28 12:06] Loading 1 new model
+[2024-05-28 12:06] Requested to load SDXL
+[2024-05-28 12:06] Loading 1 new model
+[2024-05-28 12:07] 
+[2024-05-28 12:07] Processing interrupted
+[2024-05-28 12:07] Prompt executed in 45.57 seconds
+[2024-05-28 12:07] got prompt
+[2024-05-28 12:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:07] Requested to load SDXLClipModel
+[2024-05-28 12:07] Loading 1 new model
+[2024-05-28 12:07] Requested to load SDXL
+[2024-05-28 12:07] Loading 1 new model
+[2024-05-28 12:07] 
+[2024-05-28 12:07] Processing interrupted
+[2024-05-28 12:07] Prompt executed in 32.52 seconds
+[2024-05-28 12:07] got prompt
+[2024-05-28 12:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:08] 
+[2024-05-28 12:08] Processing interrupted
+[2024-05-28 12:08] Prompt executed in 28.39 seconds
+[2024-05-28 12:08] got prompt
+[2024-05-28 12:08] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:09] 
+[2024-05-28 12:09] Processing interrupted
+[2024-05-28 12:09] Prompt executed in 39.16 seconds
+[2024-05-28 12:09] got prompt
+[2024-05-28 12:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:10] 
+[2024-05-28 12:10] Processing interrupted
+[2024-05-28 12:10] Prompt executed in 59.66 seconds
+[2024-05-28 12:11] got prompt
+[2024-05-28 12:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:11] 
+[2024-05-28 12:11] Processing interrupted
+[2024-05-28 12:11] Prompt executed in 22.08 seconds
+[2024-05-28 12:11] got prompt
+[2024-05-28 12:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:12] 
+[2024-05-28 12:12] Processing interrupted
+[2024-05-28 12:12] Prompt executed in 33.25 seconds
+[2024-05-28 12:12] got prompt
+[2024-05-28 12:12] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:13] 
+[2024-05-28 12:13] Processing interrupted
+[2024-05-28 12:13] Prompt executed in 50.28 seconds
+[2024-05-28 12:13] got prompt
+[2024-05-28 12:13] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:14] 
+[2024-05-28 12:14] Processing interrupted
+[2024-05-28 12:14] Prompt executed in 55.47 seconds
+[2024-05-28 12:15] got prompt
+[2024-05-28 12:15] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:15] Requested to load SDXLClipModel
+[2024-05-28 12:15] Loading 1 new model
+[2024-05-28 12:15] Requested to load SDXL
+[2024-05-28 12:15] Loading 1 new model
+[2024-05-28 12:15] 
+[2024-05-28 12:15] Processing interrupted
+[2024-05-28 12:15] Prompt executed in 26.66 seconds
+[2024-05-28 12:15] got prompt
+[2024-05-28 12:15] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:16] 
+[2024-05-28 12:16] Processing interrupted
+[2024-05-28 12:16] Prompt executed in 25.88 seconds
+[2024-05-28 12:17] got prompt
+[2024-05-28 12:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:17] 
+[2024-05-28 12:17] Processing interrupted
+[2024-05-28 12:17] Prompt executed in 38.17 seconds
+[2024-05-28 12:18] got prompt
+[2024-05-28 12:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:18] 
+[2024-05-28 12:18] Processing interrupted
+[2024-05-28 12:18] Prompt executed in 26.55 seconds
+[2024-05-28 12:18] got prompt
+[2024-05-28 12:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:18] Requested to load SDXLClipModel
+[2024-05-28 12:18] Loading 1 new model
+[2024-05-28 12:18] Requested to load SDXL
+[2024-05-28 12:18] Loading 1 new model
+[2024-05-28 12:18] 
+[2024-05-28 12:18] Processing interrupted
+[2024-05-28 12:18] Prompt executed in 20.48 seconds
+[2024-05-28 12:19] got prompt
+[2024-05-28 12:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:19] Requested to load SDXLClipModel
+[2024-05-28 12:19] Loading 1 new model
+[2024-05-28 12:19] Requested to load SDXL
+[2024-05-28 12:19] Loading 1 new model
+[2024-05-28 12:19] 
+[2024-05-28 12:19] Processing interrupted
+[2024-05-28 12:19] Prompt executed in 35.43 seconds
+[2024-05-28 12:19] got prompt
+[2024-05-28 12:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:20] 
+[2024-05-28 12:20] Processing interrupted
+[2024-05-28 12:20] Prompt executed in 47.90 seconds
+[2024-05-28 12:20] got prompt
+[2024-05-28 12:20] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:21] 
+[2024-05-28 12:21] Processing interrupted
+[2024-05-28 12:21] Prompt executed in 21.56 seconds
+[2024-05-28 12:21] got prompt
+[2024-05-28 12:21] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:21] 
+[2024-05-28 12:21] Processing interrupted
+[2024-05-28 12:21] Prompt executed in 18.75 seconds
+[2024-05-28 12:21] got prompt
+[2024-05-28 12:21] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:22] 
+[2024-05-28 12:22] Processing interrupted
+[2024-05-28 12:22] Prompt executed in 21.30 seconds
+[2024-05-28 12:22] got prompt
+[2024-05-28 12:22] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:23] 
+[2024-05-28 12:23] Processing interrupted
+[2024-05-28 12:23] Prompt executed in 36.62 seconds
+[2024-05-28 12:23] got prompt
+[2024-05-28 12:23] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:23] Requested to load SDXLClipModel
+[2024-05-28 12:23] Loading 1 new model
+[2024-05-28 12:23] Requested to load SDXL
+[2024-05-28 12:23] Loading 1 new model
+[2024-05-28 12:24] 
+[2024-05-28 12:24] Processing interrupted
+[2024-05-28 12:24] Prompt executed in 59.25 seconds
+[2024-05-28 12:24] got prompt
+[2024-05-28 12:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:24] Requested to load SDXLClipModel
+[2024-05-28 12:24] Loading 1 new model
+[2024-05-28 12:24] Requested to load SDXL
+[2024-05-28 12:24] Loading 1 new model
+[2024-05-28 12:25] 
+[2024-05-28 12:25] Processing interrupted
+[2024-05-28 12:25] Prompt executed in 47.41 seconds
+[2024-05-28 12:31] got prompt
+[2024-05-28 12:31] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:31] model_type EPS
+[2024-05-28 12:31] Using split attention in VAE
+[2024-05-28 12:31] Using split attention in VAE
+[2024-05-28 12:31] Requested to load SDXLClipModel
+[2024-05-28 12:31] Loading 1 new model
+[2024-05-28 12:31] Requested to load SDXL
+[2024-05-28 12:31] Loading 1 new model
+[2024-05-28 12:32] 
+[2024-05-28 12:32] Processing interrupted
+[2024-05-28 12:32] Prompt executed in 77.98 seconds
+[2024-05-28 12:32] got prompt
+[2024-05-28 12:32] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 12:32] Requested to load SDXLClipModel
+[2024-05-28 12:32] Loading 1 new model
+[2024-05-28 12:32] Requested to load SDXL
+[2024-05-28 12:32] Loading 1 new model
+[2024-05-28 12:34] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.55s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.55s/it]
+[2024-05-28 12:34] Requested to load AutoencoderKL
+[2024-05-28 12:34] Loading 1 new model
+[2024-05-28 12:34] Canva size: 1248x1824
+[2024-05-28 12:34] Image size: 832x1216
+[2024-05-28 12:34] Scale factor: 2
+[2024-05-28 12:34] Upscaling iteration 1 with scale factor 2
+[2024-05-28 12:34] Tile size: 1024x1024
+[2024-05-28 12:34] Tiles amount: 4
+[2024-05-28 12:34] Grid: 2x2
+[2024-05-28 12:34] Redraw enabled: True
+[2024-05-28 12:34] Seams fix mode: NONE
+[2024-05-28 12:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.90s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.91s/it]
+[2024-05-28 12:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.06s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.94s/it]
+[2024-05-28 12:36] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.17s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.07s/it]
+[2024-05-28 12:37] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.21s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.13s/it]
+[2024-05-28 12:37] Restoring logging level to 20
+[2024-05-28 12:37] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0013.png[0m
+[2024-05-28 12:37] Prompt executed in 310.38 seconds
+[2024-05-28 13:19] got prompt
+[2024-05-28 13:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:19] Requested to load SDXLClipModel
+[2024-05-28 13:19] Loading 1 new model
+[2024-05-28 13:20] Requested to load SDXL
+[2024-05-28 13:20] Loading 1 new model
+[2024-05-28 13:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.62s/it]
+[2024-05-28 13:21] Requested to load AutoencoderKL
+[2024-05-28 13:21] Loading 1 new model
+[2024-05-28 13:21] Canva size: 1248x1824
+[2024-05-28 13:21] Image size: 832x1216
+[2024-05-28 13:21] Scale factor: 2
+[2024-05-28 13:21] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:21] Tile size: 1024x1024
+[2024-05-28 13:21] Tiles amount: 4
+[2024-05-28 13:21] Grid: 2x2
+[2024-05-28 13:21] Redraw enabled: True
+[2024-05-28 13:21] Seams fix mode: NONE
+[2024-05-28 13:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.89s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.04s/it]
+[2024-05-28 13:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.96s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 13:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.92s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.98s/it]
+[2024-05-28 13:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  3.04s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.98s/it]
+[2024-05-28 13:25] Restoring logging level to 20
+[2024-05-28 13:25] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0014.png[0m
+[2024-05-28 13:25] Prompt executed in 311.49 seconds
+[2024-05-28 13:28] got prompt
+[2024-05-28 13:28] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:28] Requested to load SDXLClipModel
+[2024-05-28 13:28] Loading 1 new model
+[2024-05-28 13:28] Requested to load SDXL
+[2024-05-28 13:28] Loading 1 new model
+[2024-05-28 13:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.59s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.58s/it]
+[2024-05-28 13:30] Requested to load AutoencoderKL
+[2024-05-28 13:30] Loading 1 new model
+[2024-05-28 13:30] Canva size: 1248x1824
+[2024-05-28 13:30] Image size: 832x1216
+[2024-05-28 13:30] Scale factor: 2
+[2024-05-28 13:30] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:30] Tile size: 1024x1024
+[2024-05-28 13:30] Tiles amount: 4
+[2024-05-28 13:30] Grid: 2x2
+[2024-05-28 13:30] Redraw enabled: True
+[2024-05-28 13:30] Seams fix mode: NONE
+[2024-05-28 13:30] 
+[2024-05-28 13:30] Restoring logging level to 20
+[2024-05-28 13:30] Processing interrupted
+[2024-05-28 13:30] Prompt executed in 102.22 seconds
+[2024-05-28 13:31] got prompt
+[2024-05-28 13:31] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:31] Requested to load SDXLClipModel
+[2024-05-28 13:31] Loading 1 new model
+[2024-05-28 13:31] Requested to load SDXL
+[2024-05-28 13:31] Loading 1 new model
+[2024-05-28 13:32] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.62s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:16<00:00,  2.54s/it]
+[2024-05-28 13:32] Requested to load AutoencoderKL
+[2024-05-28 13:32] Loading 1 new model
+[2024-05-28 13:32] Canva size: 1248x1824
+[2024-05-28 13:32] Image size: 832x1216
+[2024-05-28 13:32] Scale factor: 2
+[2024-05-28 13:32] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:32] Restoring logging level to 20
+[2024-05-28 13:32] Processing interrupted
+[2024-05-28 13:32] Prompt executed in 86.49 seconds
+[2024-05-28 13:33] got prompt
+[2024-05-28 13:33] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:33] Requested to load SDXLClipModel
+[2024-05-28 13:33] Loading 1 new model
+[2024-05-28 13:33] Requested to load SDXL
+[2024-05-28 13:33] Loading 1 new model
+[2024-05-28 13:34] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.47s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.50s/it]
+[2024-05-28 13:34] Requested to load AutoencoderKL
+[2024-05-28 13:34] Loading 1 new model
+[2024-05-28 13:34] Canva size: 1248x1824
+[2024-05-28 13:34] Image size: 832x1216
+[2024-05-28 13:34] Scale factor: 2
+[2024-05-28 13:34] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:34] Tile size: 1024x1024
+[2024-05-28 13:34] Tiles amount: 4
+[2024-05-28 13:34] Grid: 2x2
+[2024-05-28 13:34] Redraw enabled: True
+[2024-05-28 13:34] Seams fix mode: NONE
+[2024-05-28 13:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.85s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.90s/it]
+[2024-05-28 13:36] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]
+[2024-05-28 13:37] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.86s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.89s/it]
+[2024-05-28 13:38] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 13:38] Restoring logging level to 20
+[2024-05-28 13:38] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0015.png[0m
+[2024-05-28 13:38] Prompt executed in 307.49 seconds
+[2024-05-28 13:40] got prompt
+[2024-05-28 13:40] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:40] Requested to load SDXLClipModel
+[2024-05-28 13:40] Loading 1 new model
+[2024-05-28 13:40] Requested to load SDXL
+[2024-05-28 13:40] Loading 1 new model
+[2024-05-28 13:42] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.51s/it]
+[2024-05-28 13:42] Requested to load AutoencoderKL
+[2024-05-28 13:42] Loading 1 new model
+[2024-05-28 13:42] Canva size: 1248x1824
+[2024-05-28 13:42] Image size: 832x1216
+[2024-05-28 13:42] Scale factor: 2
+[2024-05-28 13:42] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:42] Restoring logging level to 20
+[2024-05-28 13:42] Processing interrupted
+[2024-05-28 13:42] Prompt executed in 87.68 seconds
+[2024-05-28 13:45] got prompt
+[2024-05-28 13:45] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:45] Requested to load SDXLClipModel
+[2024-05-28 13:45] Loading 1 new model
+[2024-05-28 13:45] Requested to load SDXL
+[2024-05-28 13:45] Loading 1 new model
+[2024-05-28 13:46] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.49s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.51s/it]
+[2024-05-28 13:46] Requested to load AutoencoderKL
+[2024-05-28 13:46] Loading 1 new model
+[2024-05-28 13:46] Canva size: 1248x1824
+[2024-05-28 13:46] Image size: 832x1216
+[2024-05-28 13:46] Scale factor: 2
+[2024-05-28 13:46] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:47] Tile size: 1024x1024
+[2024-05-28 13:47] Tiles amount: 4
+[2024-05-28 13:47] Grid: 2x2
+[2024-05-28 13:47] Redraw enabled: True
+[2024-05-28 13:47] Seams fix mode: NONE
+[2024-05-28 13:47] 
+[2024-05-28 13:47] Restoring logging level to 20
+[2024-05-28 13:47] Processing interrupted
+[2024-05-28 13:47] Prompt executed in 108.43 seconds
+[2024-05-28 13:47] got prompt
+[2024-05-28 13:47] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:48] 
+[2024-05-28 13:48] Processing interrupted
+[2024-05-28 13:48] Prompt executed in 59.22 seconds
+[2024-05-28 13:49] got prompt
+[2024-05-28 13:49] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:50] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.57s/it]
+[2024-05-28 13:50] Requested to load AutoencoderKL
+[2024-05-28 13:50] Loading 1 new model
+[2024-05-28 13:50] Canva size: 1248x1824
+[2024-05-28 13:50] Image size: 832x1216
+[2024-05-28 13:50] Scale factor: 2
+[2024-05-28 13:50] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:50] Tile size: 1024x1024
+[2024-05-28 13:50] Tiles amount: 4
+[2024-05-28 13:50] Grid: 2x2
+[2024-05-28 13:50] Redraw enabled: True
+[2024-05-28 13:50] Seams fix mode: NONE
+[2024-05-28 13:51] 
+[2024-05-28 13:51] Restoring logging level to 20
+[2024-05-28 13:51] Processing interrupted
+[2024-05-28 13:51] Prompt executed in 112.37 seconds
+[2024-05-28 13:52] got prompt
+[2024-05-28 13:52] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 13:52] Requested to load SDXLClipModel
+[2024-05-28 13:52] Loading 1 new model
+[2024-05-28 13:52] Requested to load SDXL
+[2024-05-28 13:52] Loading 1 new model
+[2024-05-28 13:53] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.49s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.52s/it]
+[2024-05-28 13:53] Requested to load AutoencoderKL
+[2024-05-28 13:53] Loading 1 new model
+[2024-05-28 13:53] Canva size: 1248x1824
+[2024-05-28 13:53] Image size: 832x1216
+[2024-05-28 13:53] Scale factor: 2
+[2024-05-28 13:53] Upscaling iteration 1 with scale factor 2
+[2024-05-28 13:53] Tile size: 1024x1024
+[2024-05-28 13:53] Tiles amount: 4
+[2024-05-28 13:53] Grid: 2x2
+[2024-05-28 13:53] Redraw enabled: True
+[2024-05-28 13:53] Seams fix mode: NONE
+[2024-05-28 13:54] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.89s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.95s/it]
+[2024-05-28 13:55] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.90s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.89s/it]
+[2024-05-28 13:56] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.85s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.88s/it]
+[2024-05-28 13:57] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.89s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:44<00:00,  2.98s/it]
+[2024-05-28 13:57] Restoring logging level to 20
+[2024-05-28 13:57] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0016.png[0m
+[2024-05-28 13:57] Prompt executed in 309.59 seconds
+[2024-05-28 14:00] got prompt
+[2024-05-28 14:00] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:00] Requested to load SDXLClipModel
+[2024-05-28 14:00] Loading 1 new model
+[2024-05-28 14:00] Requested to load SDXL
+[2024-05-28 14:00] Loading 1 new model
+[2024-05-28 14:01] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.47s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.52s/it]
+[2024-05-28 14:01] Requested to load AutoencoderKL
+[2024-05-28 14:01] Loading 1 new model
+[2024-05-28 14:01] Canva size: 1248x1824
+[2024-05-28 14:01] Image size: 832x1216
+[2024-05-28 14:01] Scale factor: 2
+[2024-05-28 14:01] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:01] Tile size: 1024x1024
+[2024-05-28 14:01] Tiles amount: 4
+[2024-05-28 14:01] Grid: 2x2
+[2024-05-28 14:01] Redraw enabled: True
+[2024-05-28 14:01] Seams fix mode: NONE
+[2024-05-28 14:02] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.82s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.84s/it]
+[2024-05-28 14:03] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.13s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.05s/it]
+[2024-05-28 14:04] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:51<00:00,  3.43s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:51<00:00,  3.47s/it]
+[2024-05-28 14:05] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.44s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.35s/it]
+[2024-05-28 14:05] Restoring logging level to 20
+[2024-05-28 14:05] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0017.png[0m
+[2024-05-28 14:05] Prompt executed in 318.78 seconds
+[2024-05-28 14:07] got prompt
+[2024-05-28 14:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:07] Requested to load SDXLClipModel
+[2024-05-28 14:07] Loading 1 new model
+[2024-05-28 14:07] Requested to load SDXL
+[2024-05-28 14:07] Loading 1 new model
+[2024-05-28 14:08] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.58s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.62s/it]
+[2024-05-28 14:08] Requested to load AutoencoderKL
+[2024-05-28 14:08] Loading 1 new model
+[2024-05-28 14:08] Canva size: 1248x1824
+[2024-05-28 14:08] Image size: 832x1216
+[2024-05-28 14:08] Scale factor: 2
+[2024-05-28 14:08] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:08] Tile size: 1024x1024
+[2024-05-28 14:08] Tiles amount: 4
+[2024-05-28 14:08] Grid: 2x2
+[2024-05-28 14:08] Redraw enabled: True
+[2024-05-28 14:08] Seams fix mode: NONE
+[2024-05-28 14:09] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  2.89s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.02s/it]
+[2024-05-28 14:10] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.06s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.16s/it]
+[2024-05-28 14:11] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.08s/it]
+[2024-05-28 14:12] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.39s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.31s/it]
+[2024-05-28 14:12] Restoring logging level to 20
+[2024-05-28 14:12] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0018.png[0m
+[2024-05-28 14:12] Prompt executed in 319.52 seconds
+[2024-05-28 14:13] got prompt
+[2024-05-28 14:13] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:13] Requested to load SDXLClipModel
+[2024-05-28 14:13] Loading 1 new model
+[2024-05-28 14:13] Requested to load SDXL
+[2024-05-28 14:13] Loading 1 new model
+[2024-05-28 14:14] 
+[2024-05-28 14:14] Processing interrupted
+[2024-05-28 14:14] Prompt executed in 67.98 seconds
+[2024-05-28 14:14] got prompt
+[2024-05-28 14:14] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:15] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:21<00:00,  2.71s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:21<00:00,  2.73s/it]
+[2024-05-28 14:15] Requested to load AutoencoderKL
+[2024-05-28 14:15] Loading 1 new model
+[2024-05-28 14:15] Canva size: 1248x1824
+[2024-05-28 14:15] Image size: 832x1216
+[2024-05-28 14:15] Scale factor: 2
+[2024-05-28 14:15] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:15] Tile size: 1024x1024
+[2024-05-28 14:15] Tiles amount: 4
+[2024-05-28 14:15] Grid: 2x2
+[2024-05-28 14:15] Redraw enabled: True
+[2024-05-28 14:15] Seams fix mode: NONE
+[2024-05-28 14:16] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.41s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.37s/it]
+[2024-05-28 14:17] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:54<00:00,  3.63s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:54<00:00,  3.65s/it]
+[2024-05-28 14:18] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:52<00:00,  3.57s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:52<00:00,  3.53s/it]
+[2024-05-28 14:19] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:53<00:00,  3.72s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:53<00:00,  3.59s/it]
+[2024-05-28 14:19] Restoring logging level to 20
+[2024-05-28 14:20] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0019.png[0m
+[2024-05-28 14:20] Prompt executed in 338.24 seconds
+[2024-05-28 14:20] got prompt
+[2024-05-28 14:20] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:20] Requested to load SDXL
+[2024-05-28 14:20] Loading 1 new model
+[2024-05-28 14:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:26<00:00,  2.81s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:26<00:00,  2.89s/it]
+[2024-05-28 14:21] Requested to load AutoencoderKL
+[2024-05-28 14:21] Loading 1 new model
+[2024-05-28 14:21] Canva size: 1248x1824
+[2024-05-28 14:21] Image size: 832x1216
+[2024-05-28 14:21] Scale factor: 2
+[2024-05-28 14:21] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:21] Tile size: 1024x1024
+[2024-05-28 14:21] Tiles amount: 4
+[2024-05-28 14:21] Grid: 2x2
+[2024-05-28 14:21] Redraw enabled: True
+[2024-05-28 14:21] Seams fix mode: NONE
+[2024-05-28 14:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.27s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.32s/it]
+[2024-05-28 14:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.29s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:48<00:00,  3.22s/it]
+[2024-05-28 14:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.33s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.29s/it]
+[2024-05-28 14:25] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.33s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.29s/it]
+[2024-05-28 14:25] Restoring logging level to 20
+[2024-05-28 14:25] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0020.png[0m
+[2024-05-28 14:25] Prompt executed in 326.58 seconds
+[2024-05-28 14:30] got prompt
+[2024-05-28 14:30] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:30] Requested to load SDXL
+[2024-05-28 14:30] Loading 1 new model
+[2024-05-28 14:30] 
+[2024-05-28 14:30] Processing interrupted
+[2024-05-28 14:30] Prompt executed in 30.52 seconds
+[2024-05-28 14:30] got prompt
+[2024-05-28 14:30] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:32] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.61s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:18<00:00,  2.60s/it]
+[2024-05-28 14:32] Requested to load AutoencoderKL
+[2024-05-28 14:32] Loading 1 new model
+[2024-05-28 14:32] Canva size: 1248x1824
+[2024-05-28 14:32] Image size: 832x1216
+[2024-05-28 14:32] Scale factor: 2
+[2024-05-28 14:32] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:32] Tile size: 1024x1024
+[2024-05-28 14:32] Tiles amount: 4
+[2024-05-28 14:32] Grid: 2x2
+[2024-05-28 14:32] Redraw enabled: True
+[2024-05-28 14:32] Seams fix mode: NONE
+[2024-05-28 14:33] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.53s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:49<00:00,  3.29s/it]
+[2024-05-28 14:34] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:52<00:00,  3.61s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:52<00:00,  3.52s/it]
+[2024-05-28 14:35] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:57<00:00,  4.09s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:57<00:00,  3.86s/it]
+[2024-05-28 14:36] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [01:00<00:00,  3.96s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [01:00<00:00,  4.06s/it]
+[2024-05-28 14:36] Restoring logging level to 20
+[2024-05-28 14:36] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0021.png[0m
+[2024-05-28 14:36] Prompt executed in 344.56 seconds
+[2024-05-28 14:51] got prompt
+[2024-05-28 14:51] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 14:51] Requested to load SDXL
+[2024-05-28 14:51] Loading 1 new model
+[2024-05-28 14:52] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.50s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:15<00:00,  2.53s/it]
+[2024-05-28 14:52] Requested to load AutoencoderKL
+[2024-05-28 14:52] Loading 1 new model
+[2024-05-28 14:52] Canva size: 1248x1824
+[2024-05-28 14:52] Image size: 832x1216
+[2024-05-28 14:52] Scale factor: 2
+[2024-05-28 14:52] Upscaling iteration 1 with scale factor 2
+[2024-05-28 14:52] Tile size: 1024x1024
+[2024-05-28 14:52] Tiles amount: 4
+[2024-05-28 14:52] Grid: 2x2
+[2024-05-28 14:52] Redraw enabled: True
+[2024-05-28 14:52] Seams fix mode: NONE
+[2024-05-28 14:53] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.89s/it]
+[2024-05-28 14:54] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.08s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:45<00:00,  3.01s/it]
+[2024-05-28 14:55] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.29s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:47<00:00,  3.14s/it]
+[2024-05-28 14:56] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.44s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:50<00:00,  3.36s/it]
+[2024-05-28 14:56] Restoring logging level to 20
+[2024-05-28 14:56] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-28/ComfyUI_0022.png[0m
+[2024-05-28 14:56] Prompt executed in 312.59 seconds
+[2024-05-28 16:56] got prompt
+[2024-05-28 16:56] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 16:56] Requested to load SDXLClipModel
+[2024-05-28 16:56] Loading 1 new model
+[2024-05-28 16:56] Requested to load SDXL
+[2024-05-28 16:56] Loading 1 new model
+[2024-05-28 16:56] 
+[2024-05-28 16:56] Processing interrupted
+[2024-05-28 16:56] Prompt executed in 26.43 seconds
+[2024-05-28 16:56] got prompt
+[2024-05-28 16:56] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 16:57] 
+[2024-05-28 16:57] Processing interrupted
+[2024-05-28 16:57] Prompt executed in 24.85 seconds
+[2024-05-28 16:57] got prompt
+[2024-05-28 16:57] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 16:57] Requested to load SDXLClipModel
+[2024-05-28 16:57] Loading 1 new model
+[2024-05-28 16:57] Requested to load SDXL
+[2024-05-28 16:57] Loading 1 new model
+[2024-05-28 16:57] 
+[2024-05-28 16:57] Processing interrupted
+[2024-05-28 16:57] Prompt executed in 26.32 seconds
+[2024-05-28 16:57] got prompt
+[2024-05-28 16:57] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 16:57] Requested to load SDXLClipModel
+[2024-05-28 16:57] Loading 1 new model
+[2024-05-28 16:57] Requested to load SDXL
+[2024-05-28 16:57] Loading 1 new model
+[2024-05-28 16:58] 
+[2024-05-28 16:58] Processing interrupted
+[2024-05-28 16:58] Prompt executed in 34.29 seconds
+[2024-05-28 16:59] got prompt
+[2024-05-28 16:59] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 16:59] 
+[2024-05-28 16:59] Processing interrupted
+[2024-05-28 16:59] Prompt executed in 27.27 seconds
+[2024-05-28 16:59] got prompt
+[2024-05-28 16:59] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 17:00] 
+[2024-05-28 17:00] Processing interrupted
+[2024-05-28 17:00] Prompt executed in 23.05 seconds
+[2024-05-28 17:00] got prompt
+[2024-05-28 17:00] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 17:00] Requested to load SDXLClipModel
+[2024-05-28 17:00] Loading 1 new model
+[2024-05-28 17:00] Requested to load SDXL
+[2024-05-28 17:00] Loading 1 new model
+[2024-05-28 17:01] 
+[2024-05-28 17:01] Processing interrupted
+[2024-05-28 17:01] Prompt executed in 71.86 seconds
+[2024-05-28 17:01] got prompt
+[2024-05-28 17:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 17:01] Requested to load SDXLClipModel
+[2024-05-28 17:01] Loading 1 new model
+[2024-05-28 17:01] Requested to load SDXL
+[2024-05-28 17:01] Loading 1 new model
+[2024-05-28 17:02] 
+[2024-05-28 17:02] Processing interrupted
+[2024-05-28 17:02] Prompt executed in 35.02 seconds
+[2024-05-28 17:04] got prompt
+[2024-05-28 17:04] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 17:04] Requested to load SDXLClipModel
+[2024-05-28 17:04] Loading 1 new model
+[2024-05-28 17:04] Requested to load SDXL
+[2024-05-28 17:04] Loading 1 new model
+[2024-05-28 17:05] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.66s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:17<00:00,  2.59s/it]
+[2024-05-28 17:05] Requested to load AutoencoderKL
+[2024-05-28 17:05] Loading 1 new model
+[2024-05-28 17:06] Canva size: 1248x1824
+[2024-05-28 17:06] Image size: 832x1216
+[2024-05-28 17:06] Scale factor: 2
+[2024-05-28 17:06] Upscaling iteration 1 with scale factor 2
+[2024-05-28 17:06] Tile size: 1024x1024
+[2024-05-28 17:06] Tiles amount: 4
+[2024-05-28 17:06] Grid: 2x2
+[2024-05-28 17:06] Redraw enabled: True
+[2024-05-28 17:06] Seams fix mode: NONE
+[2024-05-28 17:06] 
+[2024-05-28 17:06] Restoring logging level to 20
+[2024-05-28 17:06] Processing interrupted
+[2024-05-28 17:06] Prompt executed in 100.24 seconds
+[2024-05-28 19:07] got prompt
+[2024-05-28 19:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:07] Requested to load SDXLClipModel
+[2024-05-28 19:07] Loading 1 new model
+[2024-05-28 19:07] Requested to load SDXL
+[2024-05-28 19:07] Loading 1 new model
+[2024-05-28 19:07] 
+[2024-05-28 19:07] Processing interrupted
+[2024-05-28 19:07] Prompt executed in 30.37 seconds
+[2024-05-28 19:08] got prompt
+[2024-05-28 19:08] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:08] 
+[2024-05-28 19:08] Processing interrupted
+[2024-05-28 19:08] Prompt executed in 18.74 seconds
+[2024-05-28 19:08] got prompt
+[2024-05-28 19:08] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:08] Requested to load SDXLClipModel
+[2024-05-28 19:08] Loading 1 new model
+[2024-05-28 19:09] Requested to load SDXL
+[2024-05-28 19:09] Loading 1 new model
+[2024-05-28 19:09] 
+[2024-05-28 19:09] Processing interrupted
+[2024-05-28 19:09] Prompt executed in 26.78 seconds
+[2024-05-28 19:09] got prompt
+[2024-05-28 19:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:09] Requested to load SDXLClipModel
+[2024-05-28 19:09] Loading 1 new model
+[2024-05-28 19:10] Requested to load SDXL
+[2024-05-28 19:10] Loading 1 new model
+[2024-05-28 19:10] 
+[2024-05-28 19:10] Processing interrupted
+[2024-05-28 19:10] Prompt executed in 24.37 seconds
+[2024-05-28 19:10] got prompt
+[2024-05-28 19:10] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:10] Requested to load SDXLClipModel
+[2024-05-28 19:10] Loading 1 new model
+[2024-05-28 19:10] Requested to load SDXL
+[2024-05-28 19:10] Loading 1 new model
+[2024-05-28 19:11] 
+[2024-05-28 19:11] Processing interrupted
+[2024-05-28 19:11] Prompt executed in 32.76 seconds
+[2024-05-28 19:11] got prompt
+[2024-05-28 19:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:11] Requested to load SDXLClipModel
+[2024-05-28 19:11] Loading 1 new model
+[2024-05-28 19:11] Requested to load SDXL
+[2024-05-28 19:11] Loading 1 new model
+[2024-05-28 19:11] 
+[2024-05-28 19:11] Processing interrupted
+[2024-05-28 19:11] Prompt executed in 25.88 seconds
+[2024-05-28 19:12] got prompt
+[2024-05-28 19:12] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:12] 
+[2024-05-28 19:12] Processing interrupted
+[2024-05-28 19:12] Prompt executed in 29.93 seconds
+[2024-05-28 19:14] got prompt
+[2024-05-28 19:14] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:14] Requested to load SDXLClipModel
+[2024-05-28 19:14] Loading 1 new model
+[2024-05-28 19:14] Requested to load SDXL
+[2024-05-28 19:14] Loading 1 new model
+[2024-05-28 19:15] 
+[2024-05-28 19:15] Processing interrupted
+[2024-05-28 19:15] Prompt executed in 22.33 seconds
+[2024-05-28 19:15] got prompt
+[2024-05-28 19:15] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:15] Requested to load SDXLClipModel
+[2024-05-28 19:15] Loading 1 new model
+[2024-05-28 19:15] Requested to load SDXL
+[2024-05-28 19:15] Loading 1 new model
+[2024-05-28 19:15] 
+[2024-05-28 19:15] Processing interrupted
+[2024-05-28 19:15] Prompt executed in 21.75 seconds
+[2024-05-28 19:15] got prompt
+[2024-05-28 19:15] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:15] Requested to load SDXLClipModel
+[2024-05-28 19:15] Loading 1 new model
+[2024-05-28 19:15] Requested to load SDXL
+[2024-05-28 19:15] Loading 1 new model
+[2024-05-28 19:16] 
+[2024-05-28 19:16] Processing interrupted
+[2024-05-28 19:16] Prompt executed in 25.94 seconds
+[2024-05-28 19:16] got prompt
+[2024-05-28 19:16] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:16] 
+[2024-05-28 19:16] Processing interrupted
+[2024-05-28 19:16] Prompt executed in 16.32 seconds
+[2024-05-28 19:17] got prompt
+[2024-05-28 19:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:17] 
+[2024-05-28 19:17] Processing interrupted
+[2024-05-28 19:17] Prompt executed in 20.47 seconds
+[2024-05-28 19:18] got prompt
+[2024-05-28 19:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:18] 
+[2024-05-28 19:18] Processing interrupted
+[2024-05-28 19:18] Prompt executed in 29.71 seconds
+[2024-05-28 19:18] got prompt
+[2024-05-28 19:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:19] 
+[2024-05-28 19:19] Processing interrupted
+[2024-05-28 19:19] Prompt executed in 20.71 seconds
+[2024-05-28 19:19] got prompt
+[2024-05-28 19:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:19] 
+[2024-05-28 19:19] Processing interrupted
+[2024-05-28 19:19] Prompt executed in 23.35 seconds
+[2024-05-28 19:19] got prompt
+[2024-05-28 19:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:19] Requested to load SDXLClipModel
+[2024-05-28 19:19] Loading 1 new model
+[2024-05-28 19:19] Requested to load SDXL
+[2024-05-28 19:19] Loading 1 new model
+[2024-05-28 19:20] 
+[2024-05-28 19:20] Processing interrupted
+[2024-05-28 19:20] Prompt executed in 38.85 seconds
+[2024-05-28 19:20] got prompt
+[2024-05-28 19:20] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:21] 
+[2024-05-28 19:21] Processing interrupted
+[2024-05-28 19:21] Prompt executed in 24.74 seconds
+[2024-05-28 19:21] got prompt
+[2024-05-28 19:21] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:21] Requested to load SDXLClipModel
+[2024-05-28 19:21] Loading 1 new model
+[2024-05-28 19:21] Requested to load SDXL
+[2024-05-28 19:21] Loading 1 new model
+[2024-05-28 19:22] 
+[2024-05-28 19:22] Processing interrupted
+[2024-05-28 19:22] Prompt executed in 84.21 seconds
+[2024-05-28 19:23] got prompt
+[2024-05-28 19:23] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:23] Requested to load SDXLClipModel
+[2024-05-28 19:23] Loading 1 new model
+[2024-05-28 19:23] Requested to load SDXL
+[2024-05-28 19:23] Loading 1 new model
+[2024-05-28 19:24] 
+[2024-05-28 19:24] Processing interrupted
+[2024-05-28 19:24] Prompt executed in 60.48 seconds
+[2024-05-28 19:24] got prompt
+[2024-05-28 19:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:24] Requested to load SDXLClipModel
+[2024-05-28 19:24] Loading 1 new model
+[2024-05-28 19:24] Requested to load SDXL
+[2024-05-28 19:24] Loading 1 new model
+[2024-05-28 19:25] 
+[2024-05-28 19:25] Processing interrupted
+[2024-05-28 19:25] Prompt executed in 26.68 seconds
+[2024-05-28 19:25] got prompt
+[2024-05-28 19:25] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:25] Requested to load SDXLClipModel
+[2024-05-28 19:25] Loading 1 new model
+[2024-05-28 19:25] Requested to load SDXL
+[2024-05-28 19:25] Loading 1 new model
+[2024-05-28 19:25] 
+[2024-05-28 19:25] Processing interrupted
+[2024-05-28 19:25] Prompt executed in 29.38 seconds
+[2024-05-28 19:25] got prompt
+[2024-05-28 19:25] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:25] Requested to load SDXLClipModel
+[2024-05-28 19:25] Loading 1 new model
+[2024-05-28 19:25] Requested to load SDXL
+[2024-05-28 19:25] Loading 1 new model
+[2024-05-28 19:26] 
+[2024-05-28 19:26] Processing interrupted
+[2024-05-28 19:26] Prompt executed in 61.68 seconds
+[2024-05-28 19:27] got prompt
+[2024-05-28 19:27] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:27] Requested to load SDXLClipModel
+[2024-05-28 19:27] Loading 1 new model
+[2024-05-28 19:27] Requested to load SDXL
+[2024-05-28 19:27] Loading 1 new model
+[2024-05-28 19:28] 
+[2024-05-28 19:28] Processing interrupted
+[2024-05-28 19:28] Prompt executed in 50.47 seconds
+[2024-05-28 19:28] got prompt
+[2024-05-28 19:28] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-05-28 19:29] 
+[2024-05-28 19:29] Processing interrupted
+[2024-05-28 19:29] Prompt executed in 76.66 seconds
+[2024-05-28 19:30] 
+Stopped server
