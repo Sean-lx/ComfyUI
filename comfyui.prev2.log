@@ -1,306 +1,86 @@
 ## ComfyUI-Manager: installing dependencies done.
-[2024-05-27 15:16] ** ComfyUI startup time: 2024-05-27 15:16:23.512296
-[2024-05-27 15:16] ** Platform: Darwin
-[2024-05-27 15:16] ** Python version: 3.11.9 (main, Apr 19 2024, 11:43:47) [Clang 14.0.6 ]
-[2024-05-27 15:16] ** Python executable: /Users/sean/miniconda3/envs/comfyui/bin/python
-[2024-05-27 15:16] ** Log path: /Users/sean/Documents/GitHub/ComfyUI/comfyui.log
-[2024-05-27 15:16] 
+[2024-07-10 13:42] ** ComfyUI startup time: 2024-07-10 13:42:32.647466
+[2024-07-10 13:42] ** Platform: Darwin
+[2024-07-10 13:42] ** Python version: 3.11.9 (main, Apr 19 2024, 11:43:47) [Clang 14.0.6 ]
+[2024-07-10 13:42] ** Python executable: /Users/sean/miniconda3/envs/comfyui/bin/python
+[2024-07-10 13:42] ** ComfyUI Path: /Users/sean/Documents/GitHub/ComfyUI
+[2024-07-10 13:42] ** Log path: /Users/sean/Documents/GitHub/ComfyUI/comfyui.log
+[2024-07-10 13:42] 
 Prestartup times for custom nodes:
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/rgthree-comfy
-[2024-05-27 15:16]    0.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-05-27 15:16] 
-Total VRAM 32768 MB, total RAM 32768 MB
-[2024-05-27 15:16] pytorch version: 2.1.2
-[2024-05-27 15:16] Forcing FP16.
-[2024-05-27 15:16] Set vram state to: SHARED
-[2024-05-27 15:16] Device: mps
-[2024-05-27 15:16] VAE dtype: torch.float32
-[2024-05-27 15:16] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
-[2024-05-27 15:16] ### Loading: ComfyUI-Manager (V2.34.1)
-[2024-05-27 15:16] ### ComfyUI Revision: 2198 [1900e511] | Released on '2024-05-20'
-[2024-05-27 15:16] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.0-b3 in ComfyUI[0m
-[2024-05-27 15:16] Torch version: 2.1.2
-[2024-05-27 15:16] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: CoreMLExecutionProvider, AzureExecutionProvider, CPUExecutionProvider
-[2024-05-27 15:16] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
-[2024-05-27 15:16] Use STYLE:weight_interpretation:normalization at the start of a prompt to use advanced encodings
-[2024-05-27 15:16] Weight interpretations available: comfy,perp
-[2024-05-27 15:16] Normalization types available: none
-[2024-05-27 15:16] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
-[2024-05-27 15:16] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
-[2024-05-27 15:16] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
-[2024-05-27 15:16] 
-	[3m[93m"The best revenge is massive success."[0m[3m - Frank Sinatra[0m
-[2024-05-27 15:16] 
-[2024-05-27 15:16] [34mOpenPose Editor: [92mLoaded[0m
-[2024-05-27 15:16] 
-[2024-05-27 15:16] [92m[rgthree] Loaded 40 epic nodes.[0m
-[2024-05-27 15:16] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-05-27 15:16] 
-[2024-05-27 15:16] ### Loading: ComfyUI-Impact-Pack (V5.5.11)
-[2024-05-27 15:16] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.5)
-[2024-05-27 15:16] [Impact Pack] Wildcards loading done.
-[2024-05-27 15:16] Total VRAM 32768 MB, total RAM 32768 MB
-[2024-05-27 15:16] pytorch version: 2.1.2
-[2024-05-27 15:16] Forcing FP16.
-[2024-05-27 15:16] Set vram state to: SHARED
-[2024-05-27 15:16] Device: mps
-[2024-05-27 15:16] VAE dtype: torch.float32
-[2024-05-27 15:16] ### Loading: ComfyUI-Inspire-Pack (V0.70.1)
-[2024-05-27 15:16] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
-[2024-05-27 15:16] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
-[2024-05-27 15:16] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
-[2024-05-27 15:16] DWPose: Onnxruntime with acceleration providers detected
-[2024-05-27 15:16] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
-[2024-05-27 15:16] [34mDavemane42 Custom Nodes: [92mLoaded[0m
-[2024-05-27 15:16] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
-[2024-05-27 15:16] Workspace manager - Openning file hash dict
-[2024-05-27 15:16] ### Loading: Workspace Manager (V1.0.0)
-[2024-05-27 15:16] /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../web/extensions/core/uploadImage.js
-[2024-05-27 15:16] File already contains the necessary modifications.✅
-[2024-05-27 15:16] File '/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../folder_paths.py' updated successfully.✅
-[2024-05-27 15:16] File already contains the necessary modifications.✅
-[2024-05-27 15:16] ------------------------------------------
-[2024-05-27 15:16] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
-[2024-05-27 15:16] ------------------------------------------
-[2024-05-27 15:16] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
-[2024-05-27 15:16] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
-[2024-05-27 15:16] ------------------------------------------
-[2024-05-27 15:16] [36;20m[comfy_mtb] | INFO -> loaded [96m76[0m nodes successfuly[0m
-[2024-05-27 15:16] [36;20m[comfy_mtb] | INFO -> Some nodes (2) could not be loaded. This can be ignored, but go to http://127.0.0.1:8188/mtb if you want more information.[0m
-[2024-05-27 15:16] Loaded Efficiency nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/efficiency-nodes-comfyui
-[2024-05-27 15:16] Loaded ControlNetPreprocessors nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux
-[2024-05-27 15:16] Loaded AdvancedControlNet nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
-[2024-05-27 15:16] Could not find AnimateDiff nodes
-[2024-05-27 15:16] Loaded IPAdapter nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
-[2024-05-27 15:16] Loaded VideoHelperSuite from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
-[2024-05-27 15:16] ### Loading: ComfyUI-Impact-Pack (V5.5.11)
-[2024-05-27 15:16] Loaded ImpactPack nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-05-27 15:16] [Impact Pack] Wildcards loading done.
-[2024-05-27 15:16] 
-Import times for custom nodes:
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/e7ai-animate.py
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sdxl_utility.py
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Image-Selector
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-portrait-master-zh-cn
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg-use-everywhere
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Logic
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_lora_tag_loader
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sdxl_prompt_styler
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/sd-dynamic-thresholding
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/save-image-extended-comfyui
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfy-image-saver
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/wlsh_nodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Lora-Auto-Trigger-Words
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/stability-ComfyUI-nodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg_custom_core
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Cutoff
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_essentials
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-tooling-nodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/masquerade-nodes-comfyui
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Dave_CustomNode
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-portrait-master
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/cg-image-picker
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-OpenPose-Editor
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyI2I
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-KJNodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/rgthree-comfy
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-workspace-manager
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/efficiency-nodes-comfyui
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-art-venture
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/OneButtonPrompt
-[2024-05-27 15:16]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-dynamicprompts
-[2024-05-27 15:16]    0.1 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_segment_anything
-[2024-05-27 15:16]    0.1 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-prompt-control
-[2024-05-27 15:16]    0.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-05-27 15:16]    0.3 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
-[2024-05-27 15:16]    0.4 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_FizzNodes
-[2024-05-27 15:16]    0.6 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfy_mtb
-[2024-05-27 15:16]    0.9 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/was-node-suite-comfyui
-[2024-05-27 15:16]    1.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
-[2024-05-27 15:16]    2.2 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui-reactor-node
-[2024-05-27 15:16] 
-[2024-05-27 15:16] Starting server
+[2024-07-10 13:42]    0.0 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/rgthree-comfy
+[2024-07-10 13:42]    0.5 seconds: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-07-10 13:42] 
+[2024-07-10 13:42] ### Loading: ComfyUI-Manager (V2.46.2)
+[2024-07-10 13:42] ### ComfyUI Revision: 2218 [6d7449bf] | Released on '2024-05-29'
+[2024-07-10 13:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-07-10 13:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-07-10 13:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-07-10 13:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-07-10 13:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-07-10 13:42] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.1-a6 in ComfyUI[0m
+/Users/sean/miniconda3/envs/comfyui/lib/python3.11/site-packages/torchvision/transforms/functional_tensor.py:5: UserWarning: The torchvision.transforms.functional_tensor module is deprecated in 0.15 and will be **removed in 0.17**. Please don't rely on it. You probably just need to use APIs in torchvision.transforms.functional or in torchvision.transforms.v2.functional.
+  warnings.warn(
+[2024-07-10 13:42] Torch version: 2.1.2
+[2024-07-10 13:42] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: CoreMLExecutionProvider, AzureExecutionProvider, CPUExecutionProvider
+[2024-07-10 13:42] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-07-10 13:42] PATH BASENAME <function basename at 0x1049489a0>
+[2024-07-10 13:42] REGISTRY DIR /Users/sean/Documents/GitHub/ComfyUI/output/anynode
+[2024-07-10 13:42] ChromaDB Path: /Users/sean/Documents/GitHub/ComfyUI/output/anynode/chroma_db_default, exists: True
+[2024-07-10 13:42] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-07-10 13:42] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-07-10 13:42] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m217[0m [32mnodes successfully.[0m
+[2024-07-10 13:42] 
+	[3m[93m"The best way to predict the future is to create it."[0m[3m - Peter Drucker[0m
+[2024-07-10 13:42] 
+[2024-07-10 13:42] [34mOpenPose Editor: [92mLoaded[0m
+[2024-07-10 13:42] 
+[2024-07-10 13:42] [92m[rgthree] Loaded 41 extraordinary nodes.[0m
+[2024-07-10 13:42] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-07-10 13:42] 
+[2024-07-10 13:42] ### Loading: ComfyUI-Impact-Pack (V5.18.13)
+[2024-07-10 13:42] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-07-10 13:42] [Impact Pack] Wildcards loading done.
+[2024-07-10 13:42] ### Loading: ComfyUI-Inspire-Pack (V0.81)
+[2024-07-10 13:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-07-10 13:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-07-10 13:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-07-10 13:42] Traceback (most recent call last):
+  File "/Users/sean/Documents/GitHub/ComfyUI/nodes.py", line 1879, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/__init__.py", line 4, in <module>
+    from .animatediff.nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/animatediff/nodes.py", line 22, in <module>
+    from .nodes_sample import (FreeInitOptionsNode, NoiseLayerAddWeightedNode, SampleSettingsNode, NoiseLayerAddNode, NoiseLayerReplaceNode, IterationOptionsNode,
+  File "/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/animatediff/nodes_sample.py", line 5, in <module>
+    from comfy.model_patcher import set_model_options_post_cfg_function
+ImportError: cannot import name 'set_model_options_post_cfg_function' from 'comfy.model_patcher' (/Users/sean/Documents/GitHub/ComfyUI/comfy/model_patcher.py)
 
-[2024-05-27 15:16] To see the GUI go to: http://127.0.0.1:8188
-[2024-05-27 15:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
-[2024-05-27 15:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-05-27 15:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-05-27 15:16] FETCH DATA from: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
-[2024-05-27 15:16] FETCH DATA from: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
-[2024-05-27 15:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-05-27 15:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-05-27 15:17] got prompt
-[2024-05-27 15:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:17] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
-[2024-05-27 15:17] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
-[2024-05-27 15:17] model_type EPS
-[2024-05-27 15:17] Using split attention in VAE
-[2024-05-27 15:17] Using split attention in VAE
-[2024-05-27 15:17] Requested to load SDXLClipModel
-[2024-05-27 15:17] Loading 1 new model
-[2024-05-27 15:17] Requested to load SDXL
-[2024-05-27 15:17] Loading 1 new model
-[2024-05-27 15:18] 
-[2024-05-27 15:18] Processing interrupted
-[2024-05-27 15:18] Prompt executed in 61.90 seconds
-[2024-05-27 15:18] got prompt
-[2024-05-27 15:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:19] 
-[2024-05-27 15:19] Processing interrupted
-[2024-05-27 15:19] Prompt executed in 23.55 seconds
-[2024-05-27 15:19] got prompt
-[2024-05-27 15:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:20] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.24s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.24s/it]
-[2024-05-27 15:20] Using split attention in VAE
-[2024-05-27 15:20] Using split attention in VAE
-[2024-05-27 15:20] Requested to load AutoencoderKL
-[2024-05-27 15:20] Loading 1 new model
-[2024-05-27 15:20] Canva size: 1248x1824
-[2024-05-27 15:20] Image size: 832x1216
-[2024-05-27 15:20] Scale factor: 2
-[2024-05-27 15:20] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:20] Tile size: 1024x1024
-[2024-05-27 15:20] Tiles amount: 4
-[2024-05-27 15:20] Grid: 2x2
-[2024-05-27 15:20] Redraw enabled: True
-[2024-05-27 15:20] Seams fix mode: NONE
-[2024-05-27 15:21] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.73s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.86s/it]
-[2024-05-27 15:22] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.28s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:46<00:00,  3.08s/it]
-[2024-05-27 15:23] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.87s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:43<00:00,  2.91s/it]
-[2024-05-27 15:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.88s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.84s/it]
-[2024-05-27 15:24] Restoring logging level to 20
-[2024-05-27 15:24] [34mWAS Node Suite [93mWarning: [0mThe path `/Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27` specified doesn't exist! Creating directory.[0m
-[2024-05-27 15:24] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27/ComfyUI_0001.png[0m
-[2024-05-27 15:24] Prompt executed in 291.27 seconds
-[2024-05-27 15:26] got prompt
-[2024-05-27 15:26] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:26] Requested to load SDXLClipModel
-[2024-05-27 15:26] Loading 1 new model
-[2024-05-27 15:26] Requested to load SDXL
-[2024-05-27 15:26] Loading 1 new model
-[2024-05-27 15:28] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:09<00:00,  2.34s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:09<00:00,  2.30s/it]
-[2024-05-27 15:28] Requested to load AutoencoderKL
-[2024-05-27 15:28] Loading 1 new model
-[2024-05-27 15:28] Canva size: 1248x1824
-[2024-05-27 15:28] Image size: 832x1216
-[2024-05-27 15:28] Scale factor: 2
-[2024-05-27 15:28] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:28] Tile size: 1024x1024
-[2024-05-27 15:28] Tiles amount: 4
-[2024-05-27 15:28] Grid: 2x2
-[2024-05-27 15:28] Redraw enabled: True
-[2024-05-27 15:28] Seams fix mode: NONE
-[2024-05-27 15:28] 
-[2024-05-27 15:28] Restoring logging level to 20
-[2024-05-27 15:28] Processing interrupted
-[2024-05-27 15:28] Prompt executed in 105.98 seconds
-[2024-05-27 15:28] got prompt
-[2024-05-27 15:28] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:29] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.28s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.24s/it]
-[2024-05-27 15:29] Requested to load AutoencoderKL
-[2024-05-27 15:29] Loading 1 new model
-[2024-05-27 15:29] Canva size: 1248x1824
-[2024-05-27 15:29] Image size: 832x1216
-[2024-05-27 15:29] Scale factor: 2
-[2024-05-27 15:29] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:30] Tile size: 1024x1024
-[2024-05-27 15:30] Tiles amount: 4
-[2024-05-27 15:30] Grid: 2x2
-[2024-05-27 15:30] Redraw enabled: True
-[2024-05-27 15:30] Seams fix mode: NONE
-[2024-05-27 15:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.61s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.62s/it]
-[2024-05-27 15:31] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.72s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.60s/it]
-[2024-05-27 15:32] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:41<00:00,  2.85s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:41<00:00,  2.75s/it]
-[2024-05-27 15:33] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.92s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:42<00:00,  2.85s/it]
-[2024-05-27 15:33] Restoring logging level to 20
-[2024-05-27 15:33] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27/ComfyUI_0002.png[0m
-[2024-05-27 15:33] Prompt executed in 275.98 seconds
-[2024-05-27 15:35] got prompt
-[2024-05-27 15:35] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:35] Requested to load SDXL
-[2024-05-27 15:35] Loading 1 new model
-[2024-05-27 15:36] 
-[2024-05-27 15:36] Processing interrupted
-[2024-05-27 15:36] Prompt executed in 61.21 seconds
-[2024-05-27 15:36] got prompt
-[2024-05-27 15:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:37] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.18s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.25s/it]
-[2024-05-27 15:37] Requested to load AutoencoderKL
-[2024-05-27 15:37] Loading 1 new model
-[2024-05-27 15:37] Canva size: 1248x1824
-[2024-05-27 15:37] Image size: 832x1216
-[2024-05-27 15:37] Scale factor: 2
-[2024-05-27 15:37] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:37] Tile size: 1024x1024
-[2024-05-27 15:37] Tiles amount: 4
-[2024-05-27 15:37] Grid: 2x2
-[2024-05-27 15:37] Redraw enabled: True
-[2024-05-27 15:37] Seams fix mode: NONE
-[2024-05-27 15:38] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.56s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.54s/it]
-[2024-05-27 15:39] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.52s/it]
-[2024-05-27 15:40] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:40<00:00,  2.55s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:40<00:00,  2.70s/it]
-[2024-05-27 15:41] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.68s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.65s/it]
-[2024-05-27 15:41] Restoring logging level to 20
-[2024-05-27 15:41] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27/ComfyUI_0003.png[0m
-[2024-05-27 15:41] Prompt executed in 272.92 seconds
-[2024-05-27 15:44] got prompt
-[2024-05-27 15:44] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:44] Requested to load SDXL
-[2024-05-27 15:44] Loading 1 new model
-[2024-05-27 15:46] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:08<00:00,  2.22s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:08<00:00,  2.27s/it]
-[2024-05-27 15:46] Requested to load AutoencoderKL
-[2024-05-27 15:46] Loading 1 new model
-[2024-05-27 15:46] Canva size: 1248x1824
-[2024-05-27 15:46] Image size: 832x1216
-[2024-05-27 15:46] Scale factor: 2
-[2024-05-27 15:46] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:46] Tile size: 1024x1024
-[2024-05-27 15:46] Tiles amount: 4
-[2024-05-27 15:46] Grid: 2x2
-[2024-05-27 15:46] Redraw enabled: True
-[2024-05-27 15:46] Seams fix mode: NONE
-[2024-05-27 15:46] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.54s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.56s/it]
-[2024-05-27 15:47] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.53s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.55s/it]
-[2024-05-27 15:48] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.52s/it]
-[2024-05-27 15:49] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.53s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:38<00:00,  2.53s/it]
-[2024-05-27 15:49] Restoring logging level to 20
-[2024-05-27 15:49] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27/ComfyUI_0004.png[0m
-[2024-05-27 15:49] Prompt executed in 269.91 seconds
-[2024-05-27 15:53] got prompt
-[2024-05-27 15:53] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-05-27 15:53] Requested to load SDXL
-[2024-05-27 15:53] Loading 1 new model
-[2024-05-27 15:54] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.21s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:07<00:00,  2.25s/it]
-[2024-05-27 15:54] Requested to load AutoencoderKL
-[2024-05-27 15:54] Loading 1 new model
-[2024-05-27 15:54] Canva size: 1248x1824
-[2024-05-27 15:54] Image size: 832x1216
-[2024-05-27 15:54] Scale factor: 2
-[2024-05-27 15:54] Upscaling iteration 1 with scale factor 2
-[2024-05-27 15:54] Tile size: 1024x1024
-[2024-05-27 15:54] Tiles amount: 4
-[2024-05-27 15:54] Grid: 2x2
-[2024-05-27 15:54] Redraw enabled: True
-[2024-05-27 15:54] Seams fix mode: NONE
-[2024-05-27 15:55] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.50s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.51s/it]
-[2024-05-27 15:56] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:40<00:00,  3.31s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:40<00:00,  2.69s/it]
-[2024-05-27 15:57] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.48s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:37<00:00,  2.50s/it]
-[2024-05-27 15:58] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.66s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:39<00:00,  2.64s/it]
-[2024-05-27 15:58] Restoring logging level to 20
-[2024-05-27 15:58] [34mWAS Node Suite: [0mImage file saved to: /Users/sean/Documents/GitHub/ComfyUI/output/2024-05-27/ComfyUI_0005.png[0m
-[2024-05-27 15:58] Prompt executed in 286.64 seconds
-[2024-05-27 16:21] 
-Stopped server
+[2024-07-10 13:42] Cannot import /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved module for custom nodes: cannot import name 'set_model_options_post_cfg_function' from 'comfy.model_patcher' (/Users/sean/Documents/GitHub/ComfyUI/comfy/model_patcher.py)
+[2024-07-10 13:42] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-07-10 13:42] [34mDavemane42 Custom Nodes: [92mLoaded[0m
+[2024-07-10 13:42] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-07-10 13:42] Workspace manager - Openning file hash dict
+[2024-07-10 13:42] 🦄🦄Loading: Workspace Manager (V2.1.0)
+[2024-07-10 13:42] /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../web/extensions/core/uploadImage.js
+[2024-07-10 13:42] File already contains the necessary modifications.✅
+[2024-07-10 13:42] File '/Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-ArtGallery/../../folder_paths.py' updated successfully.✅
+[2024-07-10 13:42] File already contains the necessary modifications.✅
+[2024-07-10 13:42] ------------------------------------------
+[2024-07-10 13:42] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-07-10 13:42] ------------------------------------------
+[2024-07-10 13:42] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-07-10 13:42] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-07-10 13:42] ------------------------------------------
+[2024-07-10 13:42] [36;20m[comfy_mtb] | INFO -> loaded [96m80[0m nodes successfuly[0m
+[2024-07-10 13:42] Loaded Efficiency nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-07-10 13:42] Loaded ControlNetPreprocessors nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-07-10 13:42] Loaded AdvancedControlNet nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-07-10 13:42] Could not find AnimateDiff nodes
+[2024-07-10 13:42] Loaded IPAdapter nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-07-10 13:42] Loaded VideoHelperSuite from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-07-10 13:42] ### Loading: ComfyUI-Impact-Pack (V5.18.13)
+[2024-07-10 13:42] Loaded ImpactPack nodes from /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-07-10 13:42] [Impact Pack] Wildcards loading done.
+[2024-07-10 13:43] FETCH DATA from: /Users/sean/Documents/GitHub/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
