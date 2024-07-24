@@ -21,3 +21,4 @@ venv/
 .DS_Store
 
 *.log
+web_custom_versions/
